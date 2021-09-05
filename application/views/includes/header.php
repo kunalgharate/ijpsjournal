@@ -60,7 +60,7 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </span>
                                     <span class="topbar-hightlight">
-                                        <a href="mailto:ijprajournal@editorboard.com">ijprajournal@editorboard.com</a>
+                                        <a href="mailto:info@ijpsjournal.com">info@ijpsjournal.com</a>
                                     </span>
                                 </li>
                             </ul>
@@ -75,7 +75,7 @@
                                     <span class="topbar-label">
                                         <span class="topbar-hightlight">
                                             <a href="#">
-                                                <b>ISSN: 2456-4494</b>
+                                                <b>ISSN: 0000-0000</b>
                                             </a>
                                         </span>
                                 </li>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="float-right">
                         <div class="make_appo">
-                            <a class="btn white_btn" href="submit-manuscript.html">Submit Article</a>
+                            <a class="btn white_btn" href="<?php echo base_url();?>MenuScript">Submit Article</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                     <!-- logo start -->
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="<?php echo base_url();?>">
                             <img src="<?php echo base_url();?>assets/images/logos/logo.png" alt="logo" />
                         </a>
                     </div>
@@ -122,51 +122,51 @@
                                     <a href="<?php echo base_url();?>ImpactFactor">Impact Factor</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>ImpactFactor">Submit Manuscript</a>
+                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
                                 </li>
                                 <li>
-                                    <a href="call-for-paper.html">For Authors</a>
+                                    <a href="#">For Authors</a>
                                     <ul>
                                         <li>
-                                            <a href="call-for-paper.html">Call for Paper</a>
+                                            <a href="<?php echo base_url();?>CallForPaper">Call for Paper</a>
                                         </li>
                                         <li>
-                                            <a href="topics.html">Topics</a>
+                                            <a href="<?php echo base_url();?>Topics">Topics</a>
                                         </li>
                                         <li>
-                                            <a href="author-guidelines.html">Author Guidelines</a>
+                                            <a href="<?php echo base_url();?>AuthorGuidelines">Author Guidelines</a>
                                         </li>
                                         <li>
-                                            <a href="copyright-form.html">Copyright Form</a>
+                                            <a href="<?php echo base_url();?>CopyrightForm">Copyright Form</a>
                                         </li>
                                         <li>
-                                            <a href="check-paper-status.html">Check paper Status</a>
+                                            <a href="<?php echo base_url();?>CheckPaperStatus">Check paper Status</a>
                                         </li>
                                         <li>
-                                            <a href="membership.html">Membership</a>
+                                            <a href="<?php echo base_url();?>Memberships">Membership</a>
                                         </li>
                                         <li>
-                                            <a href="peer-review-process.html">Peer Review Process</a>
+                                            <a href="<?php echo base_url();?>PeerReviewProcess">Peer Review Process</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#">Issue</a>
                                     <ul>
-                                        <li ><a href="current-issue6f14.html?issueid=34">Current Issue</a></li>                                       
+                                        <li ><a href="<?php echo base_url();?>CurrentIssue">Current Issue</a></li>                                       
                                         <li>
-                                            <a href="past-issue.html">Past Issue</a>
+                                            <a href="<?php echo base_url();?>PastIssue">Past Issue</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="editorial-board.html">Editorial Board</a>
+                                    <a href="<?php echo base_url();?>EditorialBoard">Editorial Board</a>
                                 </li>
                                 <li>
-                                    <a href="pay-fees.html">Pay Fees</a>
+                                    <a href="<?php echo base_url();?>PayFee">Pay Fees</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="<?php echo base_url();?>ContactUs">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
