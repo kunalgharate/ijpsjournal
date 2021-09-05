@@ -7,7 +7,7 @@ class PayFee extends CI_Controller {
 	{
 		
 		$this->load->view('includes/header');
-		$this->load->view('manuscript');
+		$this->load->view('payfee');
 		$this->load->view('includes/footer');
      
 	}

@@ -6,7 +6,7 @@ class AddCertificate extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('includes/header');
-		$this->load->view('homepage');
+		$this->load->view('addcertificate');
 		$this->load->view('includes/footer');
 	}
 

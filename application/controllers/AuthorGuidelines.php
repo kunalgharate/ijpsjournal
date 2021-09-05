@@ -7,7 +7,7 @@ class AuthorGuidelines extends CI_Controller {
 	{
 		
 		$this->load->view('includes/header');
-		$this->load->view('manuscript');
+		$this->load->view('authorguidelines');
 		$this->load->view('includes/footer');
      
 	}

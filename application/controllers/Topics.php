@@ -7,7 +7,7 @@ class Topics extends CI_Controller {
 	{
 		
 		$this->load->view('includes/header');
-		$this->load->view('manuscript');
+		$this->load->view('topics');
 		$this->load->view('includes/footer');
      
 	}
