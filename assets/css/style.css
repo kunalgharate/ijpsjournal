@@ -4920,3 +4920,14 @@ footer ul.social_icons {
 .social-icon a .fa {
     color: #febd69;
 }
+
+.myimg {
+    border-radius: 8px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

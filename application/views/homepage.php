@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="row about_blog">
-            <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="background:#ebebeb;">
+            <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="background:#febd69;">
                 <div class="full text_align_left">
                     <h3>Why Choose Us</h3>
                     <p>International Journal of Pharmaceutical Research and Applications is online open access journal. Publishing article from many country in the field of Pharmaceutical Sciences and its applications</p>
@@ -264,7 +264,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si1.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">Fast service</h4>
                                 <p>IJPRA publishes articles within 48 hrs as it has a wide team of reviewers</p>
                             </div>
@@ -273,7 +273,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si2.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">Publication Fees</h4>
                                 <p>Fees is very low. Online publication charges are 1400 Rs only</p>
                             </div>
@@ -282,7 +282,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si3.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">Expert team</h4>
                                 <p>IJPRA has board members from Top Institutes and University</p>
                             </div>
@@ -291,7 +291,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si4.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">E-Certificates</h4>
                                 <p> IJPRA provides e-certificates for all publishes articles within 4 hrs.</p>
                             </div>
@@ -300,7 +300,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si5.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">ISSN</h4>
                                 <p> IJPRA Journal has a valid ISSN 2249-7781</p>
                             </div>
@@ -309,7 +309,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="images/it_service/si6.png" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
                                 <h4 class="service-heading">Google Searchable</h4>
                                 <p> All publishes articles are searchable in different search Engine like Google</p>
                             </div>
