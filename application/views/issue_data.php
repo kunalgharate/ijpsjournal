@@ -65,36 +65,43 @@ body {
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
-                    <h3>Menuscript Data</h3>
+                    <h2>Issue Data</h2>
                     <table class="table">
                     
                 
                         <thead>
                             <tr>
                             <th>ID</th>
-                            <th>Issue Date</th>
-                            <th>Name</th>
-                            <th>Title</th>
-                            <th>Email</th>
-                            <th>Country</th>
-                            <th>File</th>
-                            <th>Download File</th>
+                            <th>paper_title</th>
+                            <th>Authorname</th>
+                            <th>volume </th>
+                            <th>DOI</th>
+                            <th>issue_date</th>
+                            <th>issue_paper</th>
+                            <th>certificate</th>
+                            <th>Update</th>
+                            <th>Delete</th>
 
 </tr>
                         </thead>
-                        <?php if(count($menuscript_data)): ?>
+                        <?php if(count($issue_data)): ?>
                         <?php
-                        foreach ($menuscript_data as $msd) {
+                        foreach ($issue_data as $isd) {
                             ?>
                             <tr>
-                                <td><?php echo $msd['id'];; ?></td>
-                                <td><?php echo  $msd['issuedate']; ?></td>
-                                <td><?php echo $msd['authorname']; ?></td>
-                                <td><?php echo $msd['papertitle'] ?></td>
-                                <td><?php echo $msd['email']; ?></td>
-                                <td><?php echo $msd['country'] ?></td>
-                                <td><?php echo $msd['file'] ?></td>
-                                <td><a href="<?=base_url ()?><?php echo $msd['file'] ?>" class="btn btn-primary"  download="<?php echo $msd['file'] ?>">Download</a></td>
+                                <td><?php echo $isd['id'];; ?></td>
+                                <td><?php echo  $isd['paper_title']; ?></td>
+                                <td><?php echo $isd['authorname']; ?></td>
+                                <td><?php echo $isd['volume'] ?></td>
+                                <td><?php echo $isd['doi']; ?></td>
+                                <td><?php echo $isd['issue_date'] ?></td>
+                                <td><?php echo $isd['issue_paper'] ?></td>
+                                <td><?php echo $isd['certificate'] ?></td>
+                                <td><a  class="btn btn-primary" href="<?php echo base_url(); ?>admin/issueupdate/<?php echo $isd['id']; ?>">Update</a></td><td>
+                                <?=
+                                form_open('admin/issuedelete'), form_hidden('id', $isd['id']),form_submit(['name => submit','value'=>'Delete', 'class'=>'btn btn-danger']),
+                                form_close();
+                                ?></td>
                             </tr>
                             <?php
                        }

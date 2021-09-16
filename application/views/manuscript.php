@@ -15,7 +15,7 @@
 
                                     <li class="active">Submit Manuscript</li>
                                 </ol>
-                            </div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,8 @@
                                         Upload Paper
                                         <span style="color:red">(only docs/doc file) *</span>
                                     </label>
-                                    <input type="file" name="file" id="Paper" required />
+                                    <?php echo form_upload(['name'=> 'userfile']);?>
+
                                     <span></span>
                                 </div>
 
