@@ -28,45 +28,45 @@
 
                         <div class="default-text-block" style="overflow:hidden;">
                             <div class="heading">SUBMIT MANUSCRIPT</div>
-                            <form method="post" enctype="multipart/form-data" style="padding:20px;">
+                            <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Menuscript/create'?> " style="padding:20px;">
                                 <div class="form-group">
                                     <label for="Name">
                                         Name of the Corresponding Author
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="text" name="Name" required class="form-control" id="Name" />
+                                    <input type="text" name="authorname" required class="form-control" id="Name" />
                                 </div>
                                 <div class="form-group">
                                     <label for="Title">
                                         Title of the Paper
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="text" name="Title" required class="form-control" id="Title" />
+                                    <input type="text" name="papertitle" required class="form-control" id="Title" />
                                 </div>
                                 <div class="form-group">
                                     <label for="Email">
                                         Email
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="email" name="Email" required class="form-control" id="Email" />
+                                    <input type="email" name="email" required class="form-control" id="Email" />
                                 </div>
                                 <div class="form-group">
                                     <label for="Country">
                                         Country
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="text" name="Country" required class="form-control" id="Country" />
+                                    <input type="text" name="country" required class="form-control" id="Country" />
                                 </div>
                                 <div class="form-group">
                                     <label for="Paper">
                                         Upload Paper
                                         <span style="color:red">(only docs/doc file) *</span>
                                     </label>
-                                    <input type="file" name="Paper" id="Paper" required />
+                                    <input type="file" name="file" id="Paper" required />
                                     <span></span>
                                 </div>
 
-                                <button type="submit" name="Manuscript" class="btn btn-success">Submit</button>
+                                <button type="submit"  class="btn btn-success">Submit</button>
                                 <br />
                                 <br />
                                 <br />
