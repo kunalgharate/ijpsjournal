@@ -13,7 +13,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 170px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -26,7 +26,7 @@ body {
 .sidenav a {
   padding: 5px 7px 5px 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #818181;
   display: block;
 }
@@ -36,6 +36,8 @@ body {
 }
 .sidenav h2 {
   color: #f1f1f1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
 }
 .main {
   margin-left: 160px; 
@@ -56,9 +58,6 @@ body {
       <a href="<?php echo base_url(); ?>admin/dashboard">
         Menuscript Data
       </a>
-      <a href="<?php echo base_url(); ?>admin/add_issue">
-        Add New Issue 
-      </a>
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
@@ -71,13 +70,11 @@ body {
                 
                         <thead>
                             <tr>
-                            <th>ID</th>
                             <th>Issue Date</th>
                             <th>Name</th>
                             <th>Title</th>
                             <th>Email</th>
                             <th>Country</th>
-                            <th>File</th>
                             <th>Download File</th>
 
 </tr>
@@ -87,13 +84,11 @@ body {
                         foreach ($menuscript_data as $msd) {
                             ?>
                             <tr>
-                                <td><?php echo $msd['id'];; ?></td>
                                 <td><?php echo  $msd['issuedate']; ?></td>
                                 <td><?php echo $msd['authorname']; ?></td>
                                 <td><?php echo $msd['papertitle'] ?></td>
                                 <td><?php echo $msd['email']; ?></td>
                                 <td><?php echo $msd['country'] ?></td>
-                                <td><?php echo $msd['file'] ?></td>
                                 <td><a href="<?=base_url ()?><?php echo $msd['file'] ?>" class="btn btn-primary"  download="<?php echo $msd['file'] ?>">Download</a></td>
                             </tr>
                             <?php

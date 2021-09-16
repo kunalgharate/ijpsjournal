@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <section class="services-single">
 
     <div class="default-text-block" style="overflow:hidden;">
-        <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url().'admin/issue_update'?> " style="padding:20px;">
+        <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url(); ?>admin/issue_update/<?php echo $id; ?>"style="padding:20px;">
         <input name="id" type="hidden" value=<?php echo $id; ?> />
         <div class="form-group">
                 <label for="Title">

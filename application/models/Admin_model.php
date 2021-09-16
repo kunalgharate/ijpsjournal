@@ -45,8 +45,8 @@ class Admin_model extends CI_Model {
     }
     public function issue_update($id,$formArray){
     
-   return $this->db->where('id',$id)
-   ->update('issue',$formArray);
+    return $this->db->where('id',$id)
+                    ->update('issue',$formArray);
 
    
 

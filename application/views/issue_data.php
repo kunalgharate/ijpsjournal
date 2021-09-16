@@ -13,7 +13,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 170px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -26,7 +26,7 @@ body {
 .sidenav a {
   padding: 5px 7px 5px 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #818181;
   display: block;
 }
@@ -36,6 +36,8 @@ body {
 }
 .sidenav h2 {
   color: #f1f1f1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
 }
 .main {
   margin-left: 160px; 
@@ -56,9 +58,7 @@ body {
       <a href="<?php echo base_url(); ?>admin/dashboard">
         Menuscript Data
       </a>
-      <a href="<?php echo base_url(); ?>admin/add_issue">
-        Add New Issue 
-      </a>
+     
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
@@ -66,12 +66,15 @@ body {
 </div>
         <div class="container" style="margin-right: 20px;">
                     <h2>Issue Data</h2>
+                    <table align="right">
+                      
+                   <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD ISSUE</a>
+</td>
+                  </table>
                     <table class="table">
-                    
                 
                         <thead>
                             <tr>
-                            <th>ID</th>
                             <th>paper_title</th>
                             <th>Authorname</th>
                             <th>volume </th>
@@ -89,15 +92,16 @@ body {
                         foreach ($issue_data as $isd) {
                             ?>
                             <tr>
-                                <td><?php echo $isd['id'];; ?></td>
+                                
                                 <td><?php echo  $isd['paper_title']; ?></td>
                                 <td><?php echo $isd['authorname']; ?></td>
                                 <td><?php echo $isd['volume'] ?></td>
                                 <td><?php echo $isd['doi']; ?></td>
                                 <td><?php echo $isd['issue_date'] ?></td>
-                                <td><?php echo $isd['issue_paper'] ?></td>
-                                <td><?php echo $isd['certificate'] ?></td>
-                                <td><a  class="btn btn-primary" href="<?php echo base_url(); ?>admin/issueupdate/<?php echo $isd['id']; ?>">Update</a></td><td>
+                                <td><a href="<?=base_url ()?><?php echo $isd['issue_paper'] ?>" class="btn btn-primary"  download="<?php echo $isd['issue_paper'] ?>">Download </a></td>
+                                <td><a href="<?=base_url ()?><?php echo $isd['certificate'] ?>" class="btn btn-primary"  download="<?php echo $isd['certificate'] ?>">Download</a></td>
+                              
+                                <td><a  class="btn btn-success" href="<?php echo base_url(); ?>admin/issueupdate/<?php echo $isd['id']; ?>">Update</a></td><td>
                                 <?=
                                 form_open('admin/issuedelete'), form_hidden('id', $isd['id']),form_submit(['name => submit','value'=>'Delete', 'class'=>'btn btn-danger']),
                                 form_close();

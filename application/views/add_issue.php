@@ -56,9 +56,7 @@ body {
       <a href="<?php echo base_url(); ?>admin/dashboard">
         Menuscript Data
       </a>
-      <a href="<?php echo base_url(); ?>admin/add_issue">
-        Add New Issue 
-      </a>
+
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
@@ -95,7 +93,7 @@ body {
                                         volume
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="text" name="volume" required class="form-control" id="volume" />
+                                    <input type="number" name="volume" value="1" required class="form-control" id="volume" />
                                 </div> 
                                 <div class="form-group">
                                     <label for="doi">
@@ -122,7 +120,7 @@ body {
 
                                 </div> 
 
-                                <button type="submit"  class="btn btn-success">Submit</button>
+                                <button type="submit"  class="btn btn-success">Submit</button>&nbsp;<a class="btn btn-primary" href='javascript:self.history.back();'>Go Back</a>
 </div>
 </form>             
     </body>

@@ -91,66 +91,7 @@
 
                     </section>
                 </div>
-               <div class="col-md-4" style="background-color:#a7d378;padding:20px;border-radius:10px;">
-                    <div class="side_bar">
-                        <div class="side_bar_blog">
-                            <h4>For Authors</h4>
-                            <div class="categary">
-                                <ul>
-                                    <li>
-                                        <a href="call-for-paper.html">
-                                            <i class="fa fa-angle-right"></i> Call for paper
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="editorial-board.html">
-                                            <i class="fa fa-angle-right"></i>Editorial Board
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="author-guidelines.html">
-                                            <i class="fa fa-angle-right"></i> Author Guidelines
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="side_bar_blog">
-                            <h4>PUBLISH ARTICLES WITH IN 48 HOURS</h4>
-                            <p>Publish your research with IJPRA and engage with global scientific minds</p>
-                            <a class="btn sqaure_bt" style="min-width: 220px;" href="submit-manuscript.html">Publish Article Today</a>
-                        </div>
-                        <div class="side_bar_blog">
-                            <h4>ABOUT IJPRA Journal</h4>
-                            <div class="categary">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-dashboard"></i>
-                                            <b>Journal Frequency:</b> Monthly
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-upload"></i>
-                                            <b>Paper Submission:</b> Throughout the month
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-envelope-o"></i>
-                                            <b>Acceptance Notification: </b> Within 24 Hours
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-bell"></i>
-                                            <b>Publish Notification: </b> Within 24 Hours
-                                        </a>
-                                    </li>
 
-                                </ul>
-                            </div>
                         </div>
 
                     </div>
