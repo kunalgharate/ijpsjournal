@@ -13,7 +13,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 170px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -26,7 +26,7 @@ body {
 .sidenav a {
   padding: 5px 7px 5px 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #818181;
   display: block;
 }
@@ -36,6 +36,8 @@ body {
 }
 .sidenav h2 {
   color: #f1f1f1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
 }
 .main {
   margin-left: 160px; 
