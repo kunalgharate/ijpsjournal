@@ -119,11 +119,34 @@
                                     <a class="active" href="<?php echo base_url();?>">Home</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>ImpactFactor">Impact Factor</a>
+                                    <a href="#">About</a>
+                                    <ul>
+                                        <li>
+                                            <a href="<?php echo base_url();?>CallForPaper">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url();?>Topics">Publication Area</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url();?>AuthorGuidelines">Reviewer Guidelines</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url();?>CopyrightForm">Plagiarism Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url();?>CheckPaperStatus">Open Access Policy</a>
+                                        </li>
+                                                                <li>
+                                            <a href="<?php echo base_url();?>PeerReviewProcess">Editorial Policy</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
+                                    <a href="<?php echo base_url();?>ImpactFactor">Impact Factor</a>
                                 </li>
+                                <!-- <li>
+                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
+                                </li> -->
                                 <li>
                                     <a href="#">For Authors</a>
                                     <ul>
@@ -139,13 +162,14 @@
                                         <li>
                                             <a href="<?php echo base_url();?>CopyrightForm">Copyright Form</a>
                                         </li>
+
+                                        <li>
+                                            <a href="<?php echo base_url();?>CopyrightForm">Model Menuscript</a>
+                                        </li>
                                         <li>
                                             <a href="<?php echo base_url();?>CheckPaperStatus">Check paper Status</a>
                                         </li>
-                                        <li>
-                                            <a href="<?php echo base_url();?>Memberships">Membership</a>
-                                        </li>
-                                        <li>
+                                                                <li>
                                             <a href="<?php echo base_url();?>PeerReviewProcess">Peer Review Process</a>
                                         </li>
                                     </ul>
@@ -155,7 +179,7 @@
                                     <ul>
                                         <li ><a href="<?php echo base_url();?>CurrentIssue">Current Issue</a></li>                                       
                                         <li>
-                                            <a href="<?php echo base_url();?>PastIssue">Past Issue</a>
+                                            <a href="<?php echo base_url();?>PastIssue">Archive</a>
                                         </li>
                                     </ul>
                                 </li>

@@ -4,6 +4,17 @@
         <div class="row">
             <div class="map_section">
                 <div id="map"></div>
+                <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
             </div>
             <div class="footer_blog">
                 <div class="row">

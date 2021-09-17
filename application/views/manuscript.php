@@ -5,15 +5,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="full">
-                        <div class="title-holder">
+                        <div class="title-holder center">
                             <div class="title-holder-cell text-left">
                                 <h1 class="page-title">Submit Manuscript</h1>
                                 <ol class="breadcrumb">
-                                    <li>
-                                        <a href="index-2.html">Home</a>
-                                    </li>
-
-                                    <li class="active">Submit Manuscript</li>
                                 </ol>
                               </div>
                         </div>
@@ -25,9 +20,9 @@
     <!-- end inner page banner -->
     <!-- section -->
     <div class="section padding_layout_1">
-        <div class="container">
+        <div class="center">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                    
                     <section class="services-single">
 
@@ -91,8 +86,12 @@
 
                     </section>
                 </div>
+<<<<<<< HEAD
 
                         </div>
+=======
+              
+>>>>>>> dev
 
                     </div>
                 </div>
