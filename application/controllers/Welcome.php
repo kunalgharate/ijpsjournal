@@ -10,10 +10,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('includes/footer');
 	}
 
-	public function demo()
-	{
-		$this->load->view('demo');
-	}
-
 	
 }

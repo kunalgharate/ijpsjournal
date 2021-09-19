@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- site icons -->
-    <link rel="icon" href="<?php echo base_url();?>assets/images/fevicon/fevicon.png" type="image/gif" />
+    <link rel="icon" href="<?php echo base_url();?>assets/images/fevicon/fevicon.jpg" type="image/gif" />
     <!-- bootstrap css -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" />
     <!-- Site css -->
@@ -105,7 +105,7 @@
                     <!-- logo start -->
                     <div class="logo">
                         <a href="<?php echo base_url();?>">
-                            <img src="<?php echo base_url();?>assets/images/logos/logo.png" alt="logo" />
+                            <img src="<?php echo base_url();?>assets/images/logos/logo.jpg" alt="logo" />
                         </a>
                     </div>
                     <!-- logo end -->
@@ -119,25 +119,25 @@
                                     <a class="active" href="<?php echo base_url();?>">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About</a>
+                                    <a href="<?php echo base_url();?>about">About</a>
                                     <ul>
                                         <li>
-                                            <a href="<?php echo base_url();?>CallForPaper">About Us</a>
+                                            <a href="<?php echo base_url();?>about">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url();?>Topics">Publication Area</a>
+                                            <a href="<?php echo base_url();?>publicationarea">Publication Area</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url();?>AuthorGuidelines">Reviewer Guidelines</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url();?>CopyrightForm">Plagiarism Policy</a>
+                                            <a href="<?php echo base_url();?>plagirism">Plagiarism Policy</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url();?>CheckPaperStatus">Open Access Policy</a>
+                                            <a href="<?php echo base_url();?>accesspolicy">Open Access Policy</a>
                                         </li>
                                                                 <li>
-                                            <a href="<?php echo base_url();?>PeerReviewProcess">Editorial Policy</a>
+                                            <a href="<?php echo base_url();?>editorialpolicy">Editorial Policy</a>
                                         </li>
                                     </ul>
                                 </li>

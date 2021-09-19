@@ -5,9 +5,10 @@ class Admin_model extends CI_Model {
     {
       $q=$this->db->where(['username'=>$username,'password'=>$password])
            ->get('account');
+           
            if($q->num_rows())
            {
-               return True;
+               return $q->row()->id;
 
            }
            else

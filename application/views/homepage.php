@@ -7,7 +7,7 @@
                     <ul>
                         <li data-index="rs-1812" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/it_service/slide1.jpg" data-rotate="0" data-saveperformance="off" data-title="Impact Factor 6.79" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="https://ijprajournal.com/images/it_service/slide1.jpg" alt="#" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="<?php echo base_url();?>assets/images/slide/slide1.jpg" alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
                             <!-- LAYER NR. BG -->
                             <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-270-layer-1012" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="s:300;s:300;" data-start="750" data-basealign="slide" data-responsive_offset="on" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"></div>
@@ -20,7 +20,7 @@
                         </li>
                         <li data-index="rs-181" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/it_service/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Refereed Journal" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="https://ijprajournal.com/images/it_service/slide2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="ijpsjournal\assets\images\slideslide2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
                             <!-- LAYER NR. BG -->
                             <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-270-layer-101" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="s:300;s:300;" data-start="750" data-basealign="slide" data-responsive_offset="on" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"></div>
@@ -51,30 +51,62 @@
         </div>
     </div>
 </div>
+
 <!-- end section -->
 <!-- section -->
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="<?php echo base_url();?>assets/images/slide/slide1.jpg" alt="#" style="width:100% ">
+    
+  </div>
 
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="<?php echo base_url();?>assets/images/slide/slide2.jpg" alt="#" style="width:100% ">
+    
+  </div>
 
-<!-- section -->
-<div class="section padding_layout_1" style="padding: 40px 0;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="full">
-                    <ul class="brand_list">
-                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon1.png" alt="#" /></li>
-                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon2.png" alt="#" /></li>
-                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon3.png" alt="#" /></li>
-                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon4.png" alt="#" /></li>
-                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon5.png" alt="#" /></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="<?php echo base_url();?>assets/images/slide/slide3.jpg" alt="#" style="width:100% ">
+   
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<!-- end section -->
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+   var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+
+
 <div class="section padding_layout_1">
     <div class="container">
         <div class="row">
@@ -88,7 +120,7 @@
             </div>
         </div>
         <div class="row about_blog">
-            <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="background:#febd69;">
+            <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="background:#E8E8E8E8;">
                 <div class="full text_align_left">
                     <h3>Why Choose Us</h3>
                     <p>International Journal of Pharmaceutical Research and Applications is online open access journal. Publishing article from many country in the field of Pharmaceutical Sciences and its applications</p>
@@ -192,11 +224,11 @@
                     <div class="col-lg-4">
                         <div class="card mb-5 mb-lg-0">
                             <div class="card-body">
-                                <h3 class="card-title text-muted text-uppercase text-center">Call for Papers</h3>
+                                <h3 class="card-title text-muted text-uppercase text-center" >Call for Papers</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>24x7WORKING
-                                    </li>
+                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24x7WORKING</p>
+                                   <br> </li>
 
                                 </ul>
                                 <a href="#" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit Today</a>
@@ -210,7 +242,8 @@
                                 <h3 class="card-title text-muted text-uppercase text-center">Notification of Acceptance</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Within 24 Hours
+                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">Within 24 Hours</p>
+                                   <br> 
 
                                     </li>
 
@@ -228,7 +261,8 @@
                                 <h3 class="card-title text-muted text-uppercase text-center">E-Certificates</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Within 04Hours
+                                    <li><span class="fa-li"><</span><br><p align="center" style="font-size: 200%;">Within 04Hours</p>
+                                   <br> 
                                     </li>
 
                                 </ul>
@@ -247,7 +281,7 @@
 <!-- end section -->
 <!-- section -->
 <div class="feature_section section padding_layout_1 light_silver">
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="col-md-12">
                 <div class="full">
@@ -264,7 +298,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si1.png" alt="#" /></div>
                                 <h4 class="service-heading">Fast service</h4>
                                 <p>IJPRA publishes articles within 48 hrs as it has a wide team of reviewers</p>
                             </div>
@@ -273,7 +307,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si2.png" alt="#" /></div>
                                 <h4 class="service-heading">Publication Fees</h4>
                                 <p>Fees is very low. Online publication charges are 1400 Rs only</p>
                             </div>
@@ -282,7 +316,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si3.png" alt="#" /></div>
                                 <h4 class="service-heading">Expert team</h4>
                                 <p>IJPRA has board members from Top Institutes and University</p>
                             </div>
@@ -291,7 +325,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si4.png" alt="#" /></div>
                                 <h4 class="service-heading">E-Certificates</h4>
                                 <p> IJPRA provides e-certificates for all publishes articles within 4 hrs.</p>
                             </div>
@@ -300,7 +334,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si5.png" alt="#" /></div>
                                 <h4 class="service-heading">ISSN</h4>
                                 <p> IJPRA Journal has a valid ISSN 2249-7781</p>
                             </div>
@@ -309,7 +343,7 @@
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
-                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/1.jpg" alt="#" /></div>
+                                <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si6.png" alt="#" /></div>
                                 <h4 class="service-heading">Google Searchable</h4>
                                 <p> All publishes articles are searchable in different search Engine like Google</p>
                             </div>
@@ -340,15 +374,17 @@
                     <div class="product_img"> <a href="author-guidelines.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/1.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="author-guidelines.html">Instruction For Authors</a></h4>
+                        <h4><a href="author-guidelines.html">Instruction For Authors</a></h4>
                         </div>
-                        <div class="starratin">
-                            <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
-                        </div>
+                 <div class="starratin">
+                    <div class="center"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                </div>
                         <div class="product_price">
+                            <br>
                             <p>
-                                <!-- <span class="old_price">$15.00</span> – --> <span class="new_price">View</span>
+ <!-- <span class="old_price">$15.00</span> – --> <span class="new_price">View</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -364,9 +400,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$24.99</span> --><span class="new_price">Publish Within 48 hrs</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -386,9 +424,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$24.99</span> --><span class="new_price"> View</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -404,9 +444,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$15.00</span> –  --><span class="new_price">View</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -422,9 +464,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$15.00</span> –  --><span class="new_price">View</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -440,9 +484,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$24.99</span> --><span class="new_price"> View</span>
                             </p>
+                            <br>
                         </div>
 
                     </div>
@@ -459,7 +505,9 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p><span class="old_price"></span><span class="new_price"> Rs 1400 Only</span></p>
+                       <br>
                         </div>
                     </div>
                 </div>
@@ -475,9 +523,11 @@
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
+                            <br>
                             <p>
                                 <!-- <span class="old_price">$15.00</span> –  --><span class="new_price">View</span>
                             </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -666,26 +716,7 @@
     </div>-->
 <!-- end section -->
 <!-- testimonal section -->
-<!-- section -->
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="full">
-                    <div class="contact_us_section ">
 
-                        <div class="inner_cont">
-                            <h2>Submit your Article Today</h2>
-                            <p>Publish in Well reputed International referred Journal</p>
-                        </div>
-                        <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="submit-manuscript.html"> Submit Now</a> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end section -->
 
 <div class="section testimonal">
     <div class="container">
@@ -781,3 +812,22 @@
 </div>
 <!-- End Model search bar -->
 <!-- footer -->
+<!-- section -->
+<div class="section padding_layout_1" style="padding: 40px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <ul class="brand_list">
+                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon1.png" alt="#" /></li>
+                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon2.png" alt="#" /></li>
+                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon3.png" alt="#" /></li>
+                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon4.png" alt="#" /></li>
+                        <li><img src="https://ijprajournal.com/images/it_service/brand_icon5.png" alt="#" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end section -->

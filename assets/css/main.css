@@ -260,7 +260,7 @@ main > section {
 }
 
 @keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
+    0%{box-shadow: inset 0px 0px 0px #333232;}
     100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
 }
 

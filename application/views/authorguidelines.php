@@ -1,16 +1,14 @@
-<div id="slider" class="section main_slider">
 
-   <!-- end section -->
-    <!-- section -->
     <div class="section padding_layout_1" style="padding-top:40px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="full">
                         <div class="main_heading ">
+ <div class="container" style=" margin-left: auto;
+    margin-right: auto;
+    width: 50em">
                             <h4>Instructions to Authors</h4>
-
-
 
                             <h5>Manuscript Format</h5>
 
@@ -107,23 +105,10 @@ Provide four to six appropriate key words after abstract</p>
 <p class="middle">All authors of submitting manuscript to the journal must disclose any and all conflicts of interest they may have with publication of the manuscript that is mentioned in the manuscript.</p>
 
 
-             
-
-                        </div>
-                    <div class="left" >
-                        <img class="myimg" src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="Paris" width="30" height="60">
-                        </div>
-
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
-           
+            </div>
               
             </div>
         </div>

@@ -12,7 +12,7 @@ class Menuscript extends CI_Controller {
 	
 	public function create()
 	{
-		$config=['upload_path' => './upload/' , 'allowed_types' => 'pdf|docs|docx',];
+		$config=['upload_path' => './upload/menuscript/' , 'allowed_types' => 'pdf|docs|docx','required',];
 		$this->load->library('upload',$config);
 		$this->load->model('Menuscript_model');
 		$this->form_validation->set_rules('authorname','Name','required');
@@ -25,13 +25,13 @@ class Menuscript extends CI_Controller {
 			
 			$post=$this->input->post();
 			$data=$this->upload->data();
-			$file=base_url("upload/".$data['raw_name'].$data['file_ext']);
+			$file=base_url("upload/menuscript/".$data['raw_name'].$data['file_ext']);
 			$formArray = array( 
 			'authorname' => $this->input->post('authorname'),
 			'papertitle'=> $this->input->post('papertitle'),
 			'email'=> $this->input->post('email'),
 			'country'=> $this->input->post('country'),
-			'file'=> "upload/".$data['raw_name'].$data['file_ext'],
+			'file'=> "upload/menuscript/".$data['raw_name'].$data['file_ext'],
 			
 		);
 		$this->Menuscript_model->create($formArray);

@@ -73,7 +73,7 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    color: #444;
+    color: #ffff;
     line-height: 1.8em;
     font-weight: 400;
     overflow-x: hidden;
@@ -293,27 +293,27 @@ a.btn.white_btn {
 }
 
 .padding-bottom_2 {
-    padding-bottom: 20px !important;
+    padding-bottom: 10px !important;
 }
 
 .padding-bottom_3 {
-    padding-bottom: 30px !important;
+    padding-bottom: 10px !important;
 }
 
 .padding-bottom_4 {
-    padding-bottom: 40px !important;
+    padding-bottom: 10px !important;
 }
 
 .padding-bottom_5 {
-    padding-bottom: 50px !important;
+    padding-bottom: 10px !important;
 }
 
 .pull-right {
-    float: right !important;
+    float: center !important;
 }
 
 .pull-left {
-    float: left !important;
+    float: center !important;
 }
 
 .img-responsive {
@@ -776,7 +776,7 @@ hr.dottad_border {
     margin: 20px auto 0;
     width: 80px;
     height: 5px;
-    background: #febd69;
+    background: #039ee3;
 }
 
 .main_heading.text_align_left::after {
@@ -1084,7 +1084,7 @@ header .right_bt .btn {
 #navbar_menu>ul>li>a {
     padding: 15px 12px;
     font-size: 14px;
-    color: #fff;
+    color: rgb(12, 12, 12);
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -1433,7 +1433,7 @@ footer,
 .light_silver {
     float: left;
     width: 100%;
-    background-color: #121921 !important;
+    background-color: #fafafa !important;
 }
 
 
@@ -2303,7 +2303,7 @@ span.skill {
 .pagination>li>span:focus,
 .pagination>li>span:hover {
     z-index: 2;
-    color: #222;
+    color: #2f5458;
     background-color: #ddd;
     border-color: #ddd;
 }
@@ -3231,8 +3231,8 @@ span.skill {
 
 footer {
     background: #632e62;
-    min-height: 375px;
-    padding: 45px 0;
+    min-height: 3px;
+    padding: 40px 0;
     position: relative;
 }
 
@@ -3301,7 +3301,7 @@ footer h4 {
 
 .footer_style_2 {
     padding: 0;
-    background: #222f3f;
+    background: #000000;
 }
 
 .bottom_footer_style_2 {
@@ -3314,7 +3314,7 @@ footer h4 {
 
 .footer_top {
     border-bottom: solid #e1e1e1 1px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
     padding-top: 18px;
     margin-bottom: 65px;
 }
@@ -3367,18 +3367,18 @@ footer h2::after {
     display: block;
     position: relative;
     top: 7px;
-    background: #febd69;
+    background: #039ee3;
 }
 
 footer p {
-    color: #d6d6d6;
+    color: #ffffff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
 }
 
 footer p a {
-    color: #d6d6d6;
+    color: #ffffff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -3389,7 +3389,7 @@ footer p a {
 }
 
 .footer-menu li a {
-    color: #d6d6d6;
+    color: #ffffff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -3405,11 +3405,11 @@ footer ul.social_icons li a {
     text-align: center;
     font-size: 18px;
     border-radius: 100%;
-    color: #febd69;
+    color: #039ee3;
 }
 
 footer ul.social_icons .fa {
-    color: #febd69;
+    color: #039ee3;
 }
 
 footer ul.social_icons {
@@ -3453,15 +3453,16 @@ footer ul.social_icons {
     float: left;
     height: auto;
     left: 0;
-    padding: 18px 0;
-    background-color: #121921;
-    padding-left: 35%;
+    padding: 15px 0;
+    background-color: #3e98ff;
+    
 }
 
 .cprt p {
     color: #fff;
     margin: 0;
     font-size: 14px;
+    align-items: center;
 }
 
 .cprt p {
@@ -3575,7 +3576,7 @@ footer ul.social_icons {
     width: 100%;
     margin-left: -10px;
     margin-bottom: 40px;
-    background-color: #222f3f;
+    background-color: #ffffff;
 }
 
 .contact_us_section h2 {
@@ -3587,7 +3588,7 @@ footer ul.social_icons {
 
 .contact_us_section p {
     margin: 0;
-    color: #febd69;
+    color: #039ee3;
 }
 
 .contact_us_section .button_Section_cont {
@@ -3604,7 +3605,7 @@ footer ul.social_icons {
 
 .contact_us_section .btn.dark_gray_bt:hover,
 .contact_us_section .btn.dark_gray_bt:focus {
-    background: #febd69;
+    background: #039ee3;
     color: #000;
     text-shadow: none;
 }
@@ -3743,7 +3744,7 @@ footer ul.social_icons {
 }
 
 .team_blog_colum {
-    background: #eee;
+    background: #039ee3;
     padding-bottom: 25px;
     border: solid #eee 1px;
     transition: ease all 0.5s;
@@ -4820,7 +4821,7 @@ footer ul.social_icons {
 }
 
 .header_top {
-    background-color: #121921 !important;
+    background-color: #3e98ff !important;
 }
 
 .fa {
@@ -4828,33 +4829,33 @@ footer ul.social_icons {
 }
 
 .header_bottom {
-    background-color: #222f3f;
+    background-color: #ffffff;
 }
 
 .feature_section {
-    background-color: #121921 !important;
-}
+    background-color: #f8f8f8 !important;
+}   
 
 .btn-primary {
     background-color: #121921;
-    color: #febd69;
+    color: #039ee3;
     border: none;
 }
 
 .card-body h3 {
-    color: #121921;
+    color: #f1f5f8;
 }
 
 .feature_section .main_heading h2 {
-    color: #ffffff;
+    color: #000;
 }
 
 .feature_section .service_blog_inner h4 {
-    color: #ffffff;
+    color: #000000;
 }
 
 .feature_section .service_blog_inner p {
-    color: #febd69;
+    color: #898989;
 }
 
 .testimonal {
@@ -4866,7 +4867,7 @@ footer ul.social_icons {
     height: 230px;
     padding: 20px;
     border-radius: 5px;
-    background-color: #121921;
+    background-color: #3c5258;
     user-select: none;
     transition: 0.5s ease-in-out;
     cursor: pointer;
@@ -4874,7 +4875,7 @@ footer ul.social_icons {
 
 .testimonal .cards:hover {
     filter: drop-shadow(0 0 10px #000000);
-    background-color: #222f3f;
+    background-color: #263f4b;
 }
 
 .testimonal .cards:nth-child(2) {
@@ -4899,7 +4900,7 @@ footer ul.social_icons {
 }
 
 .user_content p {
-    color: #febd69;
+    color: #039ee3;
 }
 
 .user_info p {
@@ -4910,7 +4911,7 @@ footer ul.social_icons {
 
 .brand_list li img {
     width: 160px;
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 .brand_list li img:hover {
@@ -4918,7 +4919,7 @@ footer ul.social_icons {
 }
 
 .social-icon a .fa {
-    color: #febd69;
+    color: #039ee3;
 }
 
 .myimg {
@@ -4931,3 +4932,304 @@ footer ul.social_icons {
     margin-right: auto;
     width: 50%;
   }
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.993);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+ 
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+/*editorial board
+body{
+    background-color: #f8f9fa!important
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}    
+
+/* user-dashboard-info-box */
+.user-dashboard-info-box .candidates-list .thumb {
+    margin-right: 20px;
+}
+.user-dashboard-info-box .candidates-list .thumb img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.user-dashboard-info-box .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.user-dashboard-info-box .candidates-list td {
+    vertical-align: middle;
+}
+
+.user-dashboard-info-box td li {
+    margin: 0 4px;
+}
+
+.user-dashboard-info-box .table thead th {
+    border-bottom: none;
+}
+
+.table.manage-candidates-top th {
+    border: 0;
+}
+
+.user-dashboard-info-box .candidate-list-favourite-time .candidate-list-favourite {
+    margin-bottom: 10px;
+}
+
+.table.manage-candidates-top {
+    min-width: 650px;
+}
+
+.user-dashboard-info-box .candidate-list-details ul {
+    color: #969696;
+}
+
+/* Candidate List */
+.candidate-list {
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.candidate-list:hover {
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+    box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+    position: relative;
+    z-index: 99;
+}
+.candidate-list:hover a.candidate-list-favourite {
+    color: #e74c3c;
+    -webkit-box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+    box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+}
+
+.candidate-list .candidate-list-image {
+    margin-right: 25px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    border: none;
+}
+.candidate-list .candidate-list-image img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.candidate-list-title {
+    margin-bottom: 5px;
+}
+
+.candidate-list-details ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+.candidate-list-details ul li {
+    margin: 5px 10px 5px 0px;
+    font-size: 13px;
+}
+
+.candidate-list .candidate-list-favourite-time {
+    margin-left: auto;
+    text-align: center;
+    font-size: 13px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+}
+.candidate-list .candidate-list-favourite-time span {
+    display: block;
+    margin: 0 auto;
+}
+.candidate-list .candidate-list-favourite-time .candidate-list-favourite {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #eeeeee;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #060707;
+}
+.candidate-list .candidate-list-favourite-time .candidate-list-favourite:hover {
+    background: #ffffff;
+    color: #e74c3c;
+}
+
+.candidate-banner .candidate-list:hover {
+    position: inherit;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    z-index: inherit;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.user-dashboard-info-box .candidates-list .thumb {
+    margin-right: 20px;
+}
+
+/*footer */
+.footer{
+   display:inline-block;
+   background:rgb(0, 0, 0);
+   width:100%;
+  font-family: "Titillium Web", sans-serif;
+  font-size:25px;
+  font-weight: bold;
+   text-decoration: none;
+   margin: 0 0 15px;
+   padding: 10px;
+  
+}
+
+.footer.p{
+    display: inline block;
+    word-spacing: 10px;
+    text-align: center;
+  
+  }
+
+.arealist{
+    color: rgb(0, 0, 0);
+}

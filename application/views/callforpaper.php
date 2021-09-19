@@ -17,11 +17,6 @@
                             <p class="middle">Publication Time: 2 Days</p>
                             <p class="middle">Publication Time: 2 Days</p>
 
-                        </div>
-                    <div class="left" >
-                        <img class="myimg" src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="Paris" width="30" height="60">
-                        </div>
-
 
 
 

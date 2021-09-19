@@ -33,18 +33,7 @@
                             <p class="middle"> Pathology</p>
                             <p class="middle"> Immunobiology</p>
                             <p class="middle">Regulations, Quality control and Machine vision for inspection</p>                   
-
-                        </div>
-                    <div class="left" >
-                        <img class="myimg" src="<?php echo base_url();?>assets/images/it_service/1.jpg" alt="Paris" width="30" height="60">
-                        </div>
-
-
-
-
-
-
-
+</div>
                     </div>
                 </div>
             </div>

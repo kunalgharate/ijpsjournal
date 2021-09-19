@@ -27,10 +27,11 @@ class Admin extends CI_Controller {
             $login_id=$this->Admin_model->isvalidate($username,$password);
             if($login_id)
             {
+                $this->load->library('session');
                 $this->session->set_userdata('id',$login_id);
-                return redirect('admin/dashboard');
+                     return redirect('admin/dashboard');
                 
-                echo "Login succesfully";
+               # echo "Login succesfully";
 
 
             }
@@ -107,7 +108,7 @@ class Admin extends CI_Controller {
 		$this->load->view('issue_data',$arrData);
         
 
-        
+
     }
 
 
@@ -126,19 +127,27 @@ class Admin extends CI_Controller {
 		$data=$this->upload->data();
         $issue_paper=base_url("issue_paper/".$data['raw_name'].$data['file_ext']);
         $issue_paper=$this->upload->data();
-
+      ##  if($issue_paper_new == null){
+           ## $issue_paper_new  == $issue_paper;
+       ## }
         
         $config2=['upload_path' => './upload/certificate/' , 'allowed_types' => 'pdf|docs|docx|doc',];
         $this->upload->initialize($config2);
         $this->upload->do_upload('certificate');
         $certificate=$this->upload->data();
-       
-        	
-        $post=$this->input->post();
-        $certi=$this->upload->data();
-        $certificate=base_url("certificate/".$certi['file_name']);
-      
+        $this->load->model('Admin_model');
+		
+            $issue_file = $this->input->post('issue_paper');
+            $new_issue_file ="upload/issue_paper/".$data['raw_name'].$data['file_ext'];
 
+            $certificate = $this->input->post('certificate');
+            $new_certificate  = "upload/certificate/".$data['raw_name'].$data['file_ext'];
+       
+       
+            $post=$this->input->post();
+            $certi=$this->upload->data();
+			$certificate=base_url("certificate/".$certi['file_name']);
+            print_r($certificate);
             #$post=$this->input->post(); 
             $this->load->model('Admin_model','issue_update');
             $formArray = array( 
@@ -146,33 +155,36 @@ class Admin extends CI_Controller {
 			    'authorname' => $this->input->post('authorname'),
 			    'volume' => $this->input->post('volume'),
 			    'doi'=> $this->input->post('doi'),
-                'issue_paper'=> "issue_paper/".$data['raw_name'].$data['file_ext'],
-			    'certificate'=> $this->input->post('certificate') ,
+                'issue_paper'=>  $issue_file,
+			    'certificate'=> $certificate,
 			);
       
         $formArray=$this->input->post();
-       
+        
         print_r($formArray);
+        
         
             $this->load->model('Admin_model');
             $this->Admin_model->issue_update($id,$formArray);
             return redirect('admin/issue_data');
-           
-      
-}
+        
+    }
+    
+    
 
     public function issuedelete() 
     {
     $id=$this->input->post('id');
     $this->load->model('Admin_model','delete');
      if($this->delete->del($id))
-    {
+     {
+    
         
         echo "Try again";
 
     }
     else{
-        #echo "Delete successfully";
+        echo "Delete successfully";
         return redirect('admin/issue_data');
     }
         
@@ -184,7 +196,8 @@ class Admin extends CI_Controller {
         redirect('/admin');
     }
 
-}
+
 
     
 
+}

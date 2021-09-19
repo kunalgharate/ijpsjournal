@@ -52,20 +52,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="form-group">
                 <label for="Paper">
                     Upload Issue Paper
+                  
                     <span style="color:red">(only docs/doc/pdf file) *</span>
                 </label>
                 <?php echo "Old file: ", $issue_paper ;?>
-                <?php echo form_upload(['name'=> 'userfile']);?>
+                <?php echo form_upload(['name'=> 'userfile', 'value'=> 'issue_paper']);?>
 
                 <span></span>
             </div>
            <div class="form-group">
                 <label for="Certificate">
                     Upload certificate
+                  
                     <span style="color:red">(only docs/doc/pdd file) *</span>
                 </label>
                 <?php echo "Old file: ", $certificate ;?>
-                <?php echo form_upload(['name'=> 'certificate' ]);?>
+                <?php echo form_upload(['name'=> 'certificate','value'=>'certificate' ]);?>
 
             </div> 
             

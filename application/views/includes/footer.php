@@ -1,22 +1,8 @@
    
-<footer class="footer_style_2">
-    <div class="container-fuild">
-        <div class="row">
-            <div class="map_section">
-                <div id="map"></div>
-                <body>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
+<footer class="footer_style_2"> 
   </body>
             </div>
-            <div class="footer_blog">
+            <div class="footer">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="main-heading left_text">
@@ -42,7 +28,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <div class="main-heading left_text">
+                       <div class="main-heading left_text">
                             <h2>Additional links</h2>
                         </div>
                         <ul class="footer-menu">
@@ -112,9 +98,10 @@
                         <p>
                             42 A, Second Street, Hamirpur Rourkela Sundargarh Odisha India 769003
                             <br />
-                            <!-- <span style="font-size:18px;"><a href="tel:+9876543210">+987 654 3210</a></span> -->
+                            
                         </p>
-                         <a href="mailto: ijprajournal@editorboard.com" style="color:white">ijprajournal@editorboard.com</a>
+                     <a href="mailto: ijprajournal@editorboard.com" style="color:white; font-size: 14px;">
+                     <i class="fa fa-angle-right"></i>ijprajournal@editorboard.com</a>
                     </div>
                 </div>
             </div>
@@ -123,4 +110,5 @@
             </div>
         </div>
     </div>
+  
 </footer>
