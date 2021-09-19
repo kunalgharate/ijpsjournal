@@ -56,8 +56,8 @@
                             <ul class="list-inline">
                                 <!-- <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight">540 Lorem Ipsum New York, AB 90218</span> </li> -->
                                 <li>
-                                    <span class="topbar-label">
-                                        <i class="fa fa-envelope-o"></i>
+                                    <span class="topbar-label" style="color:#ffffff">
+                                        <i class="fa fa-envelope-o" ></i>
                                     </span>
                                     <span class="topbar-hightlight">
                                         <a href="mailto:info@ijpsjournal.com">info@ijpsjournal.com</a>
@@ -207,3 +207,54 @@
     </div>
     <!-- header bottom end -->
 </header>
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="<?php echo base_url(); ?>">
+                    <img src="<?php echo base_url(); ?>assets/images/logos/logo.jpg" alt="logo" />
+                </a>
+            </div> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ImpactFactor</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Issue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Editorial Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pay Fees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav> -->

@@ -5,13 +5,13 @@
     <div class="section padding_layout_1" style="padding-top:40px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="main_heading ">
+                <div class="col-md-12 ">
+                    <div class="full ">
+                        <div class="main_heading shadow-sm">
                          
 
                       <h4 align="center">Pharmaceutical Sciences</h4>
-<div class="container" style=" margin-left: auto;
+<div class="container " style=" margin-left: auto;
     margin-right: auto;
     width: 50em">
      <p><b>International Journal in Pharmaceutical Sciences </b>is a monthly, international published online Journal devoted to Pharmaceutical Sciences. IJPS publishes innovative research papers, reviews, mini-reviews, short communications and notes either experimental or theoretical in the following area</p>

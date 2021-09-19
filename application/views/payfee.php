@@ -3,9 +3,9 @@
    <!-- end section -->
     <!-- section -->
     <div class="section padding_layout_1" style="padding-top:40px;">
-        <div class="container">
+        <div class="container d-flex justify-content-center ">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 shadow-sm ">
                     <div class="full">
                         <div class="main_heading ">
                             <h2>Pay Fees</h2>                                      
@@ -14,7 +14,7 @@
                             <h4>APC – Article Processing Charge includes:</h4>
                             <p class="middle">***************************************************</p>                                         
                       
-                            <ul>
+                            <ul style="color:black">
                             <li><i class="fa fa-check-circle"> </i>   Publication of one entire research paper.</li>
                             <li><i class="fa fa-check-circle"> </i>   Certificate of publication to authors of paper</li>
                             <li><i class="fa fa-check-circle"> </i>   DOI for Article </li>

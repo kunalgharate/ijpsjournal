@@ -951,7 +951,7 @@ header .right_bt .btn {
 
 .logo {
     float: left;
-    margin: 19px 0 19px;
+    margin: 5px 0 5px;
     position: relative;
     left: 0;
 }
@@ -1595,6 +1595,11 @@ body.light_blue #full_slider.full_slider_inner {
 .padding_layout_2 {
     padding-top: 120px;
     padding-bottom: 80px;
+}
+
+.padding_layout_42 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .padding_layout_1_small {
@@ -3300,7 +3305,7 @@ footer h4 {
 }
 
 .footer_style_2 {
-    padding: 0;
+    padding: 0 20px;
     background: #000000;
 }
 
@@ -3455,7 +3460,6 @@ footer ul.social_icons {
     left: 0;
     padding: 15px 0;
     background-color: #3e98ff;
-    
 }
 
 .cprt p {
@@ -4825,7 +4829,7 @@ footer ul.social_icons {
 }
 
 .fa {
-    color: #121921 !important;
+    color: #121921;
 }
 
 .header_bottom {
@@ -4834,7 +4838,7 @@ footer ul.social_icons {
 
 .feature_section {
     background-color: #f8f8f8 !important;
-}   
+}
 
 .btn-primary {
     background-color: #121921;
@@ -4867,7 +4871,7 @@ footer ul.social_icons {
     height: 230px;
     padding: 20px;
     border-radius: 5px;
-    background-color: #3c5258;
+    background-color: #5a6e79;
     user-select: none;
     transition: 0.5s ease-in-out;
     cursor: pointer;
@@ -4900,7 +4904,7 @@ footer ul.social_icons {
 }
 
 .user_content p {
-    color: #039ee3;
+    color: #000000;
 }
 
 .user_info p {
@@ -4924,111 +4928,143 @@ footer ul.social_icons {
 
 .myimg {
     border-radius: 8px;
-  }
+}
 
-  .center {
-    display: block;
+.center {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
-  * {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
+
 
 /* Slideshow container */
+
 .slideshow-container {
-    
-  position: relative;
-  margin: auto;
+    position: relative;
+    width: 100%;
+    margin: auto;
 }
+
 
 /* Hide the images by default */
+
 .mySlides {
-  display: none;
+    display: none;
 }
+
+.mySlides img {
+    height: 80vh;
+    object-fit: cover;
+}
+
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.5s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(255, 255, 255, 0.993);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.993);
 }
+
 
 /* Caption text */
+
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
- 
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
+
 
 /* Number text (1/3 etc) */
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
+
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #ffff;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0s ease;
 }
 
-.active, .dot:hover {
-  background-color: #ffffff;
+.active,
+.dot:hover {
+    background-color: #ffffff;
 }
+
 
 /* Fading animation */
+
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 4.5s;
-  animation-name: fade;
-  animation-duration: 4.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4.5s;
+    animation-name: fade;
+    animation-duration: 4.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-
-
 
 
 /*editorial board
@@ -5046,9 +5082,11 @@ body{
 }    
 
 /* user-dashboard-info-box */
+
 .user-dashboard-info-box .candidates-list .thumb {
     margin-right: 20px;
 }
+
 .user-dashboard-info-box .candidates-list .thumb img {
     width: 80px;
     height: 80px;
@@ -5096,7 +5134,9 @@ body{
     color: #969696;
 }
 
+
 /* Candidate List */
+
 .candidate-list {
     background: #ffffff;
     display: -webkit-box;
@@ -5110,12 +5150,14 @@ body{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
 .candidate-list:hover {
     -webkit-box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
     box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
     position: relative;
     z-index: 99;
 }
+
 .candidate-list:hover a.candidate-list-favourite {
     color: #e74c3c;
     -webkit-box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
@@ -5129,6 +5171,7 @@ body{
     flex: 0 0 80px;
     border: none;
 }
+
 .candidate-list .candidate-list-image img {
     width: 80px;
     height: 80px;
@@ -5148,6 +5191,7 @@ body{
     flex-wrap: wrap;
     margin-bottom: 0px;
 }
+
 .candidate-list-details ul li {
     margin: 5px 10px 5px 0px;
     font-size: 13px;
@@ -5161,10 +5205,12 @@ body{
     -ms-flex: 0 0 90px;
     flex: 0 0 90px;
 }
+
 .candidate-list .candidate-list-favourite-time span {
     display: block;
     margin: 0 auto;
 }
+
 .candidate-list .candidate-list-favourite-time .candidate-list-favourite {
     display: inline-block;
     position: relative;
@@ -5180,6 +5226,7 @@ body{
     font-size: 16px;
     color: #060707;
 }
+
 .candidate-list .candidate-list-favourite-time .candidate-list-favourite:hover {
     background: #ffffff;
     color: #e74c3c;
@@ -5195,41 +5242,66 @@ body{
 .bg-white {
     background-color: #ffffff !important;
 }
+
 .p-4 {
     padding: 1.5rem!important;
 }
-.mb-0, .my-0 {
+
+.mb-0,
+.my-0 {
     margin-bottom: 0!important;
 }
+
 .shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border-radius: 6px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
 }
 
 .user-dashboard-info-box .candidates-list .thumb {
     margin-right: 20px;
 }
 
+
 /*footer */
-.footer{
-   display:inline-block;
-   background:rgb(0, 0, 0);
-   width:100%;
-  font-family: "Titillium Web", sans-serif;
-  font-size:25px;
-  font-weight: bold;
-   text-decoration: none;
-   margin: 0 0 15px;
-   padding: 10px;
-  
+
+.footer {
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 15px;
+    padding: 10px;
 }
 
-.footer.p{
+.footer.p {
     display: inline block;
     word-spacing: 10px;
     text-align: center;
-  
-  }
+}
 
-.arealist{
+.arealist {
     color: rgb(0, 0, 0);
+}
+
+.topbar-label .fa {
+    color: #fff;
+}
+
+.form-group label {
+    color: #000000;
+}
+
+.nav-item a {
+    color: black !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.main_heading label {
+    color: #000000;
 }

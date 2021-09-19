@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="full">
-                        <div class="main_heading ">
+                        <div class="main_heading shadow-sm">
  <div class="container" style=" margin-left: auto;
     margin-right: auto;
     width: 50em">

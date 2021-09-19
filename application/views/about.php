@@ -2,11 +2,11 @@
     <div class="section padding_layout_1" style="padding-top:40px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12  ">
                     <div class="full">
                         <div class="main_heading ">
 
-<div class="container" style=" margin-left: auto;
+<div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto;
     width: 50em">
 <h1 align="center">About Us</h1>

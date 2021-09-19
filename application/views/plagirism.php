@@ -1,4 +1,4 @@
-<div class="container" style=" margin-left: auto;
+<div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto;
     width: 50em">
     <h1><b>Plagiarism Policy</b></h1>
