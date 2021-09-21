@@ -1,25 +1,11 @@
 <?php  
   
 class Admin_model extends CI_Model { 
-    public function isvalidate($username,$password)
-    {
-      $q=$this->db->where(['username'=>$username,'password'=>$password])
-           ->get('account');
-           
-           if($q->num_rows())
-           {
-               return $q->row()->id;
-
-           }
-           else
-           {
-               return false;
-           }
-           
-    }
+    
     public function get_all_menuscript_data() {
             $this->db->select('*');
-            $this->db->from('menuscript');
+            $this->db->from('menuscript')
+                    ->order_by('id','desc');
             $objQuery = $this->db->get();
             return $objQuery->result_array();
         }
@@ -28,7 +14,8 @@ class Admin_model extends CI_Model {
     }
     public function get_all_issue_data() {
         $this->db->select('*');
-        $this->db->from('issue');
+        $this->db->from('issue')
+             ->order_by('id','desc');
         $objQuery = $this->db->get();
         return $objQuery->result_array();
     }

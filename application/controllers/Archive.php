@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Archive extends CI_Controller {
-	public function index()
+	/*public function index()
 	{ 
 		$this->load->model('Archive_model');
 		$data['volume']= $this->Archive_model->fetch_volume();
@@ -12,8 +12,8 @@ class Archive extends CI_Controller {
 
 		
 
-	}
-	public function volume()
+	}*/
+	public function index()
 	{
 		$this->load->model('Archive_model');
 			

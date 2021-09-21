@@ -141,12 +141,12 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                <!--  <li>
                                     <a href="<?php echo base_url();?>ImpactFactor">Impact Factor</a>
-                                </li>
-                                <!-- <li>
+                                </li>-->
+                               <li>
                                     <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
-                                </li> -->
+                                </li> 
                                 <li>
                                     <a href="#">For Authors</a>
                                     <ul>
@@ -179,7 +179,7 @@
                                     <ul>
                                         <li ><a href="<?php echo base_url();?>CurrentIssue">Current Issue</a></li>                                       
                                         <li>
-                                            <a href="<?php echo base_url();?>PastIssue">Archive</a>
+                                            <a href="<?php echo base_url();?>Archive">Archive</a>
                                         </li>
                                     </ul>
                                 </li>

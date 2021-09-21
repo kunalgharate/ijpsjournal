@@ -7,8 +7,8 @@ class Archive_model extends CI_Model {
         $query =$this->db->get("issue");
         return $query->result();
     }
-   public function get_all_Archiveissue($volume) {
-        $this->db->where('volume',$volume);
+   public function get_all_Archiveissue() {
+        $this->db->where('volume');
         $this->db->order_by('id','desc');
       
         

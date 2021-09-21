@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-                <script src=""
+                
                    <div class="container" style="margin-right: 20px;">
                    
                    <h3>Archive</h3>
@@ -14,10 +14,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </tr>
 
                         <?php if(count($Archive)): ?>
-
-
-                        <?php $row_count = 1;
-                        foreach ($Archive as $isd) {
+                         <?php $row_count = 1;
+                          foreach($Archive as $isd) {
                             ?>
                            
                             <tr>

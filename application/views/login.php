@@ -5,143 +5,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Login</title>
-    <style>
-        body {
-    background: #222D32;
-    font-family: 'Roboto', sans-serif;
-}
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- site icons -->
+    <link rel="icon" href="<?php echo base_url();?>assets/images/fevicon/fevicon.jpg" type="image/gif" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" />
+    <!-- Site css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/responsive.css" />
+    <!-- colors css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/colors1.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" />
+    <!-- wow Animation css -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/animate.css" />
+    <!-- revolution slider css -->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/settings.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/layers.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/navigation.css" />
 
-.login-box {
-    margin-top: 75px;
-    margin-left: 300px;
-    height: auto;
-    align: center;
-    width: 50%;
-    padding: 10px;
-    background: #1A2226;
-    text-align: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
 
-.login-key {
-    height: 100px;
-    font-size: 80px;
-    line-height: 100px;
-    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.login-title {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #ECF0F5;
-}
-
-.login-form {
-    margin-top: 25px;
-    text-align: left;
-}
-
-input[type=text] {
-    background-color: #1A2226;
-    border: none;
-    border-bottom: 2px solid #0DB8DE;
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    margin-bottom: 20px;
-    padding-left: 0px;
-    color: #ECF0F5;
-}
-
-input[type=password] {
-    background-color: #1A2226;
-    border: none;
-    border-bottom: 2px solid #0DB8DE;
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    padding-left: 0px;
-    margin-bottom: 20px;
-    color: #ECF0F5;
-}
-
-.form-group {
-    margin-bottom: 40px;
-    outline: 0px;
-}
-
-.form-control:focus {
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 2px solid #0DB8DE;
-    outline: 0;
-    background-color: #1A2226;
-    color: #ECF0F5;
-}
-
-input:focus {
-    outline: none;
-    box-shadow: 0 0 0;
-}
-
-label {
-    margin-bottom: 0px;
-}
-
-.form-control-label {
-    font-size: 10px;
-    color: #6C6C6C;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.btn-outline-primary {
-    border-color: #ECF0F5;
-    color: #0DB8DE;
-    border-radius: 0px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    align: center;
-    padding: 10px 30px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.btn-outline-primary:hover {
-    background-color: #1A2226;
-    right: 0px;
-}
-
-.login-btm {
-    float: left;
-}
-
-.login-button {
-    padding-right: 0px;
-    text-align: right;
-    margin-bottom: 25px;
-}
-
-.login-text {
-    text-align: left;
-    padding-left: 50px;
-    color: #A2A4A4;
-}
-
-.loginbttm {
-    padding: 0px;
-}
-        </style>
 </head>
-<body class="body">
+<body class="adlogin">
 <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-2"></div>
@@ -152,11 +41,11 @@ label {
                 <div class="col-lg-12 login-title">
                     ADMIN PANEL
                 </div>
-                <?php echo form_open('admin/login'); ?>
+                <?php echo form_open('login/login'); ?>
 
                 <div class="col-lg-12 login-form">
                     <div class="col-lg-12 login-form">
-                        <table align="center">
+                        <table>
                             <tr>
                                 <td>
                         <form>
