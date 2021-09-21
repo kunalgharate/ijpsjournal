@@ -87,11 +87,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="float-right">
+                 <!--   <div class="float-right">
                         <div class="make_appo">
-                            <a class="btn white_btn" href="<?php echo base_url();?>MenuScript">Submit Article</a>
+                            <a class="btn white_btn" href="<?php /*echo base_url();*/?>MenuScript">Submit Article</a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -144,9 +144,6 @@
                                 <!--  <li>
                                     <a href="<?php echo base_url();?>ImpactFactor">Impact Factor</a>
                                 </li>-->
-                               <li>
-                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
-                                </li> 
                                 <li>
                                     <a href="#">For Authors</a>
                                     <ul>
@@ -173,6 +170,9 @@
                                             <a href="<?php echo base_url();?>PeerReviewProcess">Peer Review Process</a>
                                         </li>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
                                 </li>
                                 <li>
                                     <a href="#">Issue</a>
