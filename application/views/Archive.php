@@ -1,21 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-           
+                
                    <div class="container" style="margin-right: 20px;">
                    
-                   <h3>Current Issue</h3>
+                   <h3>Archive</h3>
                     <table class="table">
                     <thead>
                             <tr>
-                            
+                            <th>volume</th>
                             <th>Sr.NO</th>
                             <th>Paper Title / Author</th>
 </tr>
 
-                        <?php if(count($Currentissue)): ?>
-                        <?php $row_count = 1;
-                        foreach ($Currentissue as $isd) {
+                        <?php if(count($Archive)): ?>
+                         <?php $row_count = 1;
+                          foreach($Archive as $isd) {
                             ?>
                            
                             <tr>
