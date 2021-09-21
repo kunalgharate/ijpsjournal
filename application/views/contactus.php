@@ -3,7 +3,7 @@
    <!-- end section -->
     <!-- section -->
     <div class="section padding_layout_1" style="padding-top:40px;">
-        <div class="container">
+        <div class="container d-flex justify-content-center">
             <div class="row">
                 <div class="col-md-12">
                     <div class="full">

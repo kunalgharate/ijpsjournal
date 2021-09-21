@@ -1,10 +1,9 @@
    
-<footer class="footer_style_2"> 
-  </body>
-            </div>
-            <div class="footer">
+<footer class="footer_style_2" > 
+
+            <div class="footer padding_layout_42">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="main-heading left_text">
                             <h2>IJPRA Journal</h2>
                         </div>
@@ -27,7 +26,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                        <div class="main-heading left_text">
                             <h2>Additional links</h2>
                         </div>
@@ -59,7 +58,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="main-heading left_text">
                             <h2>quick links</h2>
                         </div>
