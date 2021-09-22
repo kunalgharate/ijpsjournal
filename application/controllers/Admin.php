@@ -2,14 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {    
-  public function index()
-    {
-        
-        
-        $this->load->view('login');
-        
-        
-    }
+ 
     
   
     public function dashboard(){
@@ -50,6 +43,7 @@ class Admin extends CI_Controller {
                 'paper_title' => $this->input->post('paper_title'),
 			    'authorname' => $this->input->post('authorname'),
 			    'volume' => $this->input->post('volume'),
+                'issue_id' => $this->input->post('issue_id'),
 			    'doi'=> $this->input->post('doi'),
                 'issue_paper'=> "upload/issue_paper/".$data['raw_name'].$data['file_ext'],
 			    'certificate'=> "upload/certificate/".$certi['file_name'],
@@ -118,6 +112,7 @@ class Admin extends CI_Controller {
                 'paper_title' => $this->input->post('paper_title'),
 			    'authorname' => $this->input->post('authorname'),
 			    'volume' => $this->input->post('volume'),
+                'issue_id' => $this->input->post('issue_id'),
 			    'doi'=> $this->input->post('doi'),
                 'issue_paper'=>  $issue_file,
 			    'certificate'=> $certificate,
@@ -152,6 +147,89 @@ class Admin extends CI_Controller {
         return redirect('admin/issue_data');
     }
         
+    }
+    #paperstatus
+
+    public function paper_status(){
+        $this->load->model('Admin_model');
+        
+        $arrData['paperstatus_data'] = $this->Admin_model->get_all_paperstatus();
+		$this->load->view('paper_status',$arrData);
+        
+    }
+
+    public function create_status(){
+        $this->load->model('Admin_model');
+		if($this->form_validation->run( 'add_admin_rules'));
+		{
+			$this->load->model('Admin_model');
+			
+
+          
+			$formArray = array( 
+                'Article_id' => $this->input->post('Article_id'),
+			    'Name' => $this->input->post('Name'),
+			    'Title' => $this->input->post('Title'),
+                'status' => $this->input->post('status'),
+			    
+			);
+		$this->Admin_model->create_status($formArray);
+        return redirect('admin/paper_status');
+		
+
+			 
+		}
+    }
+
+        
+        public function paperstatusupdate($id) {
+            $this->load->model('Admin_model');
+           $arrData= $this->Admin_model->find_status($id);
+            $this->load->view('paperstatusupdate',$arrData);
+        }
+        
+
+        public function pstatusupdate($id){
+            $this->load->model('Admin_model');
+            if($this->form_validation->run( 'add_admin_rules'));
+            {
+                $this->load->model('Admin_model');
+                
+    
+              
+                $formArray = array( 
+                    'Article_id' => $this->input->post('Article_id'),
+                    'Name' => $this->input->post('Name'),
+                    'Title' => $this->input->post('Title'),
+                    'status' => $this->input->post('status'),
+                    
+                );
+            $this->Admin_model->update_status($id,$formArray);
+            return redirect('admin/paper_status');
+            $this->load->view('paper_status');
+    
+                 
+
+        }
+     
+    }
+
+    public function pstatusdelete() 
+    {
+    $id=$this->input->post('id');
+    $this->load->model('Admin_model','delete');
+     if($this->delete->delete($id))
+     {
+    
+        
+        echo "Try again";
+
+    }
+    else{
+        echo "Delete successfully";
+        return redirect('admin/paper_status');
+    }
+
     }
     public function logout()
     {

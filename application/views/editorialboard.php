@@ -1,6 +1,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 
-                            
+<div id="inner_banner" class="section inner_banner_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                Editorial Board</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>Editorial Board</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
 <div class="container mt-3 mb-4 d-flex justify-content-center">
 <div class="col-lg-9 mt-4 mt-lg-0">
     <div class="row">

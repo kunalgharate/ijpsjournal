@@ -1,13 +1,28 @@
-
-    <div class="section padding_layout_1" style="padding-top:40px;">
+<div id="inner_banner" class="section inner_banner_section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="full">
-                        <div class="main_heading shadow-sm">
- <div class="container" style=" margin-left: auto;
-    margin-right: auto;
-    width: 50em">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                Authors Guidelines</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a> Authors Guidelines</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container shadow-sm" style=" margin-left: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    width: 70em">
+
                             <h4>Instructions to Authors</h4>
 
                             <h5>Manuscript Format</h5>
@@ -106,10 +121,4 @@ Provide four to six appropriate key words after abstract</p>
 
 
                     </div>
-                </div>
-            </div>
-            </div>
-              
-            </div>
-        </div>
-    </div>
+             

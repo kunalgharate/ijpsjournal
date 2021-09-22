@@ -1,11 +1,34 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-           
-                   <div class="container" style="margin-right: 20px;">
+          
+          <div id="inner_banner" class="section inner_banner_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+
+                                <div class="page-title">
+                                Current Issue</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>Current Issue</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container shadow-sm" style=" margin-left: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    width: 50em">
                    
                    <h3>Current Issue</h3>
-                    <table class="table">
+                    <table class="table" style="color: black;" >
                     <thead>
                             <tr>
                             
@@ -14,6 +37,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </tr>
 
                         <?php if(count($Currentissue)): ?>
+
+
                         <?php $row_count = 1;
                         foreach ($Currentissue as $isd) {
                             ?>
@@ -28,8 +53,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <label>DOI:</label><?php echo $isd['doi']; ?>&nbsp;
                             <label>Issue:</label><?php echo $isd['issue_date'] ?>&nbsp;<br>
                                 
-                            <a  href="<?=base_url ()?><?php echo $isd['issue_paper'] ?>"  download="<?php echo $isd['issue_paper'] ?>">Download Issue paper </a>
-                            <a href="<?=base_url ()?><?php echo $isd['certificate'] ?>"  download="<?php echo $isd['certificate'] ?>">Download Certificate</a>
+                            <a style="color : #FFA500;" href="<?=base_url ()?><?php echo $isd['issue_paper'] ?>"  download="<?php echo $isd['issue_paper'] ?>">Download Issue paper, </a>
+                            <a style="color : #FFA500;" href="<?=base_url ()?><?php echo $isd['certificate'] ?>"  download="<?php echo $isd['certificate'] ?>">Download Certificate.</a>
                         </td>
                         <tr>
                             <?php
@@ -46,5 +71,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                                  
                         
-    </body>
-</html> 
+    

@@ -18,13 +18,36 @@ $config=[
                             'label' => 'doi',
                             'rules' => 'required'
                           ],
-                        ],
-                
-      
+                        
+  [
 
-                     
+   'field' => 'number',
+   'label' => 'Article_id',
+   'rules' => 'required'
+   ],
+   [
+   'field' => 'name',
+   'label' => 'Name',
+   'rules' => 'required'
+   ],
+   [
+     'field' => 'text',
+     'label' => 'Title',
+     'rules' => 'required'
+   ],
+   [
+    'field' => 'text',
+    'label' => 'status',
+    'rules' => 'required'
+  ],
+ ],
+
+
+
+
 
 ];
+
 
 
 ?>

@@ -1,14 +1,17 @@
 <?php  
   
 class Archive_model extends CI_Model {
-    public function fetch_volume() {
+    public function fetch_Arch_data() {
 
-        $this->db->order_by("volume","ASC");
-        $query =$this->db->get("issue");
-        return $query->result();
+        $this->db->select('*');
+        $this->db->from('issue');
+        $this->db->order_by('id','asc');
+        
+        $objQuery = $this->db->get();
+        return $objQuery->result_array();
     }
    public function get_all_Archiveissue() {
-        $this->db->where('volume');
+        $this->db->where('issue_id');
         $this->db->order_by('id','desc');
       
         

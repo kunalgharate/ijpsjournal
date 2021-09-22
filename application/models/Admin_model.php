@@ -39,7 +39,39 @@ class Admin_model extends CI_Model {
    
 
     }
+    public function get_all_paperstatus() {
+        $this->db->select('*');
+        $this->db->from('paperstatus')
+             ->order_by('id','desc');
+        $objQuery = $this->db->get();
+        return $objQuery->result_array();
+    }
 
+
+    public function create_status( $formArray){
+        $this->db->insert('paperstatus', $formArray);
+
+    }
+    public function delete($id) {
+
+        $this->db->delete('paperstatus',['id'=>$id]);
+     }
+     
+     public function find_status($id)
+     {
+         $objQuery=$this->db->select()
+                 ->where('id',$id)
+                 ->get('paperstatus');
+                 return $objQuery->row();
+     }
+    public function update_status($id,$formArray){
+    
+        return $this->db->where('id',$id)
+                        ->update('paperstatus',$formArray);
+    
+       
+    
+    }
 
 }  
   

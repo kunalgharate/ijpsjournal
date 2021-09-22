@@ -31,11 +31,11 @@
                             <h2>Additional links</h2>
                         </div>
                         <ul class="footer-menu">
-                            <li>
+                            <!--<li>
                                 <a href="impact-factor.html">
                                     <i class="fa fa-angle-right"></i> Impact Factor
                                 </a>
-                            </li>
+                            </li>--->
                             <li>
                                 <a href="submit-manuscript.html">
                                     <i class="fa fa-angle-right"></i> Submit Manuscript

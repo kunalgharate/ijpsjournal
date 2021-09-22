@@ -1,15 +1,15 @@
-    <!-- end header -->
-    <!-- inner page banner -->
-    <div id="inner_banner" class="section inner_banner_section">
+<div id="inner_banner" class="section inner_banner_section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="full">
-                        <div class="title-holder center">
-                            <div class="title-holder-cell text-left">
-                                <h1 class="page-title">Submit Manuscript</h1>
-                                <ol class="breadcrumb">
-                                </ol>
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                    Submit Menuscript</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>   Submit Menuscript</a>
                               </div>
                         </div>
                     </div>
@@ -17,19 +17,11 @@
             </div>
         </div>
     </div>
-    <!-- end inner page banner -->
-    <!-- section -->
-    <div class="section padding_layout_1">
-        <div class="center">
-            <div class="row">
-                <div class="col-md-12">
-                   
-                    <section class="services-single">
 
-                        <div class="default-text-block" style="overflow:hidden;">
-                            <div class="heading">SUBMIT MENUSCRIPT</div>
-           
-      
+
+<div class="container shadow-sm" style=" margin-left: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    width: 50em">
 
                             <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Menuscript/create'?> " style="padding:20px;">
                                 <div class="form-group">
@@ -89,12 +81,5 @@
                         </div>
 
                     </section>
-                </div>
-            </div>
-                </div>
-                </div>
-            </div>
-       
-    </div>
-    
-  
+          
+</div>

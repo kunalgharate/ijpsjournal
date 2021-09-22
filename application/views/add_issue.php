@@ -62,6 +62,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
+      <a href="<?php echo base_url(); ?>admin/paper_status">
+        Paper Status
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
 <div class="container" style="margin-right: 20px;">
@@ -95,7 +98,14 @@ body {
                                         volume
                                         <span style="color:red">*</span>
                                     </label>
-                                    <input type="number" name="volume" value="1" required class="form-control" id="volume" />
+                                    <input type="number" name="volume" required class="form-control" id="volume" />
+                                </div> 
+                                <div class="form-group">
+                                <label for="issue_id">
+                                        Issue
+                                        <span style="color:red">*</span>
+                                    </label>
+                                    <input type="number" name="issue_id"  required class="form-control" id="issue_id" />
                                 </div> 
                                 <div class="form-group">
                                     <label for="doi">

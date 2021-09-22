@@ -43,6 +43,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <input type="text" name="volume" required class="form-control" id="volume" value=<?php echo $volume ;?> />
             </div> 
             <div class="form-group">
+                                <label for="issue_id">
+                                        Issue
+                                        <span style="color:red">*</span>
+                                    </label>
+                                    <input type="number" name="issue_id"  required class="form-control" id="issue_id" value=<?php echo $issue_id ;?> />
+                                </div> 
+            <div class="form-group">
                 <label for="doi">
                     DOI
                     <span style="color:red">*</span>

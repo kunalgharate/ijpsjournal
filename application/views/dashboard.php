@@ -61,6 +61,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
+      <a href="<?php echo base_url(); ?>admin/paper_status">
+        Paper Status
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">

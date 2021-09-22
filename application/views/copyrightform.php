@@ -1,13 +1,28 @@
-<div id="slider" class="section main_slider">
-
-   <!-- end section -->
-    <!-- section -->
-    <div class="section padding_layout_1" style="padding-top:40px;">
+<div id="inner_banner" class="section inner_banner_section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="full">
-                        <div class="main_heading ">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                Copyright Form</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>Copyright Form</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container shadow-sm" style=" margin-left: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    width: 50em">
+
                             <h4>Copyright Form </h4><p class="middle">Download</p>                                         
                         </div>
                 

@@ -22,16 +22,35 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
-    <br>
-    <h1 align="center">Check Paper Status</h1>
-    <br>
-    <form class="form" align="center"action="<?php echo base_url();?>checkpaperstatus/paper_status" name="Article_id" method="post" >
-
-  <input size="40%" type="text"  placeholder="ENTER ARTICLE ID" name="Article_id"><br><br>
-  <button  class="btn btn-success" type="submit">&nbsp;<i class="fa fa-search">GET STATUS&nbsp;</i></button>
-<br>
+  
  
-</form>
+    <table class="table" style="color: black;">
+                
+                <thead>
+                    <tr>
+                    <th>Id</th>
+                    <th>Name</th> 
+                    <th>Title</th> 
+                    <th>Article_id</th>
+                    <th>Status</th>
+                    
+</tr>  </thead>
 
-</div>  
-</div>
+            <?php if(count(['statusview'])): ?>
+              <?php foreach($statusview  as $psd) {  ?>
+                    <td>
+                        
+                    
+                    <h5><?php echo $psd; ?></h5>
+                        
+                    </td>
+                <?php  }  ?>
+             <?php else:?>
+                    <tr>
+                        <td colsapn="3">NO Data availabel!</td>
+                    </tr>
+            <?php endif;?>
+            </table>
+             </div>  
+        
+                

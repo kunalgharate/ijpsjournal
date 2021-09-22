@@ -1,5 +1,26 @@
+<div id="inner_banner" class="section inner_banner_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                Plagiarism Policy</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>Plagiarism Policy</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 <div class="container shadow-sm" style=" margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
     <h1><b>Plagiarism Policy</b></h1>
     <br>

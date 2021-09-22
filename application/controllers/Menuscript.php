@@ -5,7 +5,7 @@ class Menuscript extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('includes/header');
-		$this->load->view('manuscript');
+		$this->load->view('menuscript');
 		$this->load->view('includes/footer');
 
 	}
@@ -36,7 +36,7 @@ class Menuscript extends CI_Controller {
 		);
 		$this->Menuscript_model->create($formArray);
 		$this->load->view('includes/header');
-		$this->load->view('manuscript');
+		$this->load->view('menuscript');
 		$this->load->view('includes/footer');
 
 			 

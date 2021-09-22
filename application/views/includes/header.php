@@ -74,7 +74,7 @@
                                 <li>
                                     <span class="topbar-label">
                                         <span class="topbar-hightlight">
-                                            <a href="#">
+                                            <a href="#" >
                                                 <b>ISSN: 0000-0000</b>
                                             </a>
                                         </span>
@@ -119,7 +119,7 @@
                                     <a class="active" href="<?php echo base_url();?>">Home</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>about">About</a>
+                                    <a href="<?php echo base_url();?>#">About</a>
                                     <ul>
                                         <li>
                                             <a href="<?php echo base_url();?>about">About Us</a>
@@ -128,7 +128,7 @@
                                             <a href="<?php echo base_url();?>publicationarea">Publication Area</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url();?>AuthorGuidelines">Reviewer Guidelines</a>
+                                            <a href="<?php echo base_url();?>ReviwerGuidlines">Reviewer Guidelines</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url();?>plagirism">Plagiarism Policy</a>
@@ -161,7 +161,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="<?php echo base_url();?>CopyrightForm">Model Menuscript</a>
+                                            <a href="<?php echo base_url();?>ModelScript">Model Menuscript</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url();?>CheckPaperStatus">Check paper Status</a>

@@ -62,6 +62,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
+      <a href="<?php echo base_url(); ?>admin/paper_status">
+        Paper Status
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
@@ -78,6 +81,7 @@ body {
                             <th>paper_title</th>
                             <th>Authorname</th>
                             <th>volume </th>
+                            <th>Issue</th>
                             <th>DOI</th>
                             <th>issue_date</th>
                             <th>issue_paper</th>
@@ -96,6 +100,7 @@ body {
                                 <td><?php echo  $isd['paper_title']; ?></td>
                                 <td><?php echo $isd['authorname']; ?></td>
                                 <td><?php echo $isd['volume'] ?></td>
+                                <td><?php echo $isd['issue_id'] ?></td>
                                 <td><?php echo $isd['doi']; ?></td>
                                 <td><?php echo $isd['issue_date'] ?></td>
                                 <td><a href="<?=base_url ()?><?php echo $isd['issue_paper'] ?>" class="btn btn-primary"  download="<?php echo $isd['issue_paper'] ?>">Download </a></td>

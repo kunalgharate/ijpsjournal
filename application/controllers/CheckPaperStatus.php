@@ -12,5 +12,14 @@ class CheckPaperStatus extends CI_Controller {
      
 	}
 
-	
+	public function paper_status(){
+        $this->load->model('CheckPaperStatus_model');
+		$Article_id=$this->input->post();
+	 
+        $arrData['statusview'] = $this->CheckPaperStatus_model->get_paperstatus($Article_id);
+		
+		$this->load->view('includes/header');
+		$this->load->view('status',$arrData);
+        $this->load->view('includes/footer');
+    }
 }

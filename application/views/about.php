@@ -1,15 +1,29 @@
-
-    <div class="section padding_layout_1" style="padding-top:40px;">
+<div id="inner_banner" class="section inner_banner_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-12  ">
-                    <div class="full">
-                        <div class="main_heading ">
+                <div class="col-md-12">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                    About Us</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a> About Us</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <div class="container shadow-sm" style=" margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
-<h1 align="center">About Us</h1>
+
+
 <h4>International Journal in Pharmaceutical Sciences (IJPS)</h4>
 <p class="middle">is an open access online and print International Journal published monthly.</p>
 <p class="middle">It is a peer-reviewed journal aiming to communicate high quality original research work, reviews, short communications, case report, Ethics Forum, Education Forum and Letter to editor that contribute significantly to further the Scientific Knowledge related to the field of Pharmacy i.e. Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy, Pharmaceutical Analysis, Pharmaceutical Microbiology, Pharmaceutical Biotechnology, Clinical Pharmacy, Bioinformatics, Pharmaceutical Management, Health Care Management, Hospital Management, Biochemistry,  Regulatory Affairs, Pharmacovigilance, Clinical Research, Hospital Pharmacy, Community Pharmacy, Quality Assurance, Pharmacy Practice and other many pharmacy related fields. Articles with timely interest and newer research concepts will be given more preference</p>
@@ -36,13 +50,7 @@ Open Submissions, Indexed, and Peer Reviewed</p>
 <p class="middel">The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.</p>
 <p class="middel">To know more about Subscription details kindly send us an email at editor@ijpsjournal.com</p>
 
-
+<div class="section padding_layout_1">
 </div>                 
-                    </div>
-                </div>
-            </div>
-           
-              
-            </div>
-        </div>
-    </div>
+
+</div>

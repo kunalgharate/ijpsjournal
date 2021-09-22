@@ -1,19 +1,31 @@
-<div id="slider" class="section main_slider">
-
-   <!-- end section -->
-    <!-- section -->
-    <div class="section padding_layout_1" style="padding-top:40px;">
+<div id="inner_banner" class="section inner_banner_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 ">
-                    <div class="full ">
-                        <div class="main_heading shadow-sm">
+                <div class="col-md-12">
+                        <div class="title-holder left">
+                         <div class="title-holder-cell text-left">
+                                
+                                <div class="page-title">
+                                    Publication Area</div>
+                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a> > </a>
+                                    <a>  Publication Area</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
                          
 
-                      <h4 align="center">Pharmaceutical Sciences</h4>
 <div class="container " style=" margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; padding-top: 10px;   margin-top: 30%;
     width: 50em">
+    
+   <h4 align="center">Pharmaceutical Sciences</h4>
      <p><b>International Journal in Pharmaceutical Sciences </b>is a monthly, international published online Journal devoted to Pharmaceutical Sciences. IJPS publishes innovative research papers, reviews, mini-reviews, short communications and notes either experimental or theoretical in the following area</p>
 <table class="table table-striped" align="center">
   <thead >
