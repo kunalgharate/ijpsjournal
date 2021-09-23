@@ -40,13 +40,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <span style="color:red">*</span>
                 </label>
                 <input type="text" name="Title" required class="form-control" id="Title" value=<?php echo $Title; ?> />
-            </div> 
+            </div>
             <div class="form-group">
             <label for="Status">
                     Status
                     <span style="color:red">*</span>
                 </label>
-                <input type="text" name="status"  required class="form-control" id="status"  value=<?php echo $status; ?> />
+                <select type="text" name="status"  required class="form-control" id="status" >
+                <option value="<?php echo $status; ?>" ><?php echo $status; ?></option>
+                <option value="Review">Review</option>
+                <option value="Review">Review</option>
+              <option value="Submited">Submited</option>
+                <option value="Pulished">Pulished</option>
+               <option value="Discard">Discard</option>
+
+                </select>
             </div> 
     
             <div class="form-group">
