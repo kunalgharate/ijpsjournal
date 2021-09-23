@@ -74,6 +74,11 @@ body {
                    <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD ISSUE</a>
 </td>
                   </table>
+                  <?php if($this->session->flashdata('message')){?>
+  <div class="alert alert-success">      
+    <?php echo $this->session->flashdata('message')?>
+  </div>
+<?php } ?>
                     <table class="table">
                 
                         <thead>

@@ -78,6 +78,12 @@ body {
                     <section class="services-single">
 
                         <div class="default-text-block" style="overflow:hidden;">
+                        <?php if($this->session->flashdata('message')){?>
+  <div class="alert alert-success">      
+    <?php echo $this->session->flashdata('message')?>
+  </div>
+<?php } ?>
+
                             <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url().'admin/create_issue'?> " style="padding:20px;">
                             <div class="form-group">
                                     <label for="Title">

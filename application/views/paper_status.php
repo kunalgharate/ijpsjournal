@@ -68,19 +68,23 @@ body {
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
-                    <h2>Paper Status</h2>
+                    <h3>Paper Status</h3> <h4>Add Status</h4>
                     <table align="center">
                     <div class="container" style="margin-right: 20px;">
 
-<h3>Add Status</h3>
+
 <div class="section padding_layout_1">
-<div class="container">
+<div class="container" style="margin-top:-6%">
 <div class="row">
 <div class="col-md-9">
-
 <section class="services-single">
-
     <div class="default-text-block" style="overflow:hidden;">
+    <?php if($this->session->flashdata('message')){?>
+  <div class="alert alert-success">      
+    <?php echo $this->session->flashdata('message')?>
+  </div>
+<?php } ?>
+            
         <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url().'admin/create_status'?> " style="padding:20px;">
         <div class="form-group">
                 <label for="Article ID">
@@ -122,9 +126,10 @@ body {
             </div> 
 
             <button type="submit"  class="btn btn-success">Submit</button>&nbsp;<a class="btn btn-primary" href='javascript:self.history.back();'>Go Back</a>
-</div>
+</form>   
+</div> 
 <br>
-</form>             
+<h4>Paper Status Data</h4>           
         
                   </table>
                     <table class="table">
@@ -170,6 +175,6 @@ body {
                     
                 </div>
                         
-                        
+                          
     </body>
 </html> 

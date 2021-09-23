@@ -16,6 +16,7 @@ class Login extends CI_Controller {
 
 	public function login()
     {
+        $this->load->library('session');
         $this->load->library('form_validation','fv');
         $this->load->helper(array('form', 'url'));
         $this->form_validation->set_rules('username', 'username' ,'requir|alpha');

@@ -12,6 +12,7 @@ class Menuscript extends CI_Controller {
 	
 	public function create()
 	{
+		$this->load->library('session');
 		$config=['upload_path' => './upload/menuscript/' , 'allowed_types' => 'pdf|docs|docx','required',];
 		$this->load->library('upload',$config);
 		$this->load->model('Menuscript_model');
@@ -34,13 +35,16 @@ class Menuscript extends CI_Controller {
 			'file'=> "upload/menuscript/".$data['raw_name'].$data['file_ext'],
 			
 		);
+
 		$this->Menuscript_model->create($formArray);
+
+		$this->session->set_flashdata('message', 'Successfully Submited.');
 		$this->load->view('includes/header');
 		$this->load->view('menuscript');
 		$this->load->view('includes/footer');
 
-			 
-		}
+
+	}
      
 	}
 

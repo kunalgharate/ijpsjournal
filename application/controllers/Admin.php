@@ -49,6 +49,7 @@ class Admin extends CI_Controller {
 			    'certificate'=> "upload/certificate/".$certi['file_name'],
 			);
 		$this->Admin_model->create_issue($formArray);
+        $this->session->set_flashdata('message', 'Successfully Added.');
 		$this->load->view('add_issue');
 
 			 
@@ -125,6 +126,7 @@ class Admin extends CI_Controller {
         
             $this->load->model('Admin_model');
             $this->Admin_model->issue_update($id,$formArray);
+            $this->session->set_flashdata('message', 'Successfully Updated.');
             return redirect('admin/issue_data');
         
     }
@@ -174,6 +176,8 @@ class Admin extends CI_Controller {
 			    
 			);
 		$this->Admin_model->create_status($formArray);
+        
+		$this->session->set_flashdata('message', 'Successfully Submited.');
         return redirect('admin/paper_status');
 		
 

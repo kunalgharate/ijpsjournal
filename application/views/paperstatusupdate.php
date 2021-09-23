@@ -9,13 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>   
 <div class="container" style="margin-right: 20px;">
-
 <h3> Update Status</h3>
 <div class="section padding_layout_1">
 <div class="container">
 <div class="row">
 <div class="col-md-8">
-
 <section class="services-single">
 
     <div class="default-text-block" style="overflow:hidden;">

@@ -22,10 +22,16 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
+    <br>
+                         <?php if($this->session->flashdata('message')){?>
+  <div class="alert alert-success">      
+    <?php echo $this->session->flashdata('message')?>
+  </div>
+<?php } ?>
 
                             <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Menuscript/create'?> " style="padding:20px;">
                                 <div class="form-group">
-                                <?= $this->session->flashdata('success'); ?>
+                         
                                     <label for="Name">
                                         Name of the Corresponding Author
                                         <span style="color:red">*</span>
