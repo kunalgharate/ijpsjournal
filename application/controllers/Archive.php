@@ -14,10 +14,10 @@ class Archive extends CI_Controller {
 			$finalarray[date('Y', strtotime($data['issue_date']))][$data['volume']][$data['issue_id']] = $data['issue_id'];
 		}
 		$finaldata['Archivedata'] = $finalarray;
-	//	echo "<pre>";
-		//print_r($arrdata['Archivedata']);
-	//	print_r($finalarray);
-	//	exit;
+		echo "<pre>";
+	//	print_r($arrdata['Archivedata']);
+		print_r($finalarray);
+		exit;
 		$this->load->view('includes/header');
 			$this->load->view('Archive',$finaldata);
 			$this->load->view('includes/footer');

@@ -6,9 +6,15 @@ class Admin extends CI_Controller {
     
   
     public function dashboard(){
-    $this->load->model('Admin_model');
-    $arrData['menuscript_data'] = $this->Admin_model->get_all_menuscript_data();
-    return $this->load->view('dashboard',$arrData);
+        if(!$this->session->userdata("id"))
+        {
+            redirect('login');
+        }
+        else{	
+            $this->load->model('Admin_model');
+            $arrData['menuscript_data'] = $this->Admin_model->get_all_menuscript_data();
+            return $this->load->view('dashboard',$arrData);
+        }
     }
     public function add_issue(){
         $this->load->view('add_issue');
