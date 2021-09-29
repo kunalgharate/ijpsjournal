@@ -58,6 +58,7 @@ body {
       <a href="<?php echo base_url(); ?>admin/dashboard">
         Menuscript Data
       </a>
+     
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
       </a>
@@ -70,32 +71,31 @@ body {
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
-                    <h3>Menuscript Data</h3>
-                    <table class="table">
-                    
+                    <h2>Contact Data</h2>
+                         
+   <table class="table">
                 
                         <thead>
                             <tr>
-                            <th>Issue Date</th>
                             <th>Name</th>
-                            <th>Title</th>
                             <th>Email</th>
-                            <th>Country</th>
-                            <th>Download File</th>
+                            <th>Message </th>
+                            
 
 </tr>
                         </thead>
-                        <?php if(count($menuscript_data)): ?>
+                        <?php if(count($contact_data)): ?>
                         <?php
-                        foreach ($menuscript_data as $msd) {
+                        foreach ($contact_data as $isd) {
                             ?>
                             <tr>
-                                <td><?php echo  $msd['issuedate']; ?></td>
-                                <td><?php echo $msd['authorname']; ?></td>
-                                <td><?php echo $msd['papertitle'] ?></td>
-                                <td><?php echo $msd['email']; ?></td>
-                                <td><?php echo $msd['country'] ?></td>
-                                <td><a href="<?=base_url ()?><?php echo $msd['file'] ?>" class="btn btn-primary"  download="<?php echo $msd['file'] ?>">Download</a></td>
+                                
+                                <td><?php echo  $isd['name']; ?></td>
+                                <td><?php echo $isd['email']; ?></td>
+                                <td><?php echo $isd['message'] ?></td>
+                             
+                              
+                              
                             </tr>
                             <?php
                        }

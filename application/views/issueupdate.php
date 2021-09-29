@@ -63,6 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <span style="color:red">(only docs/doc/pdf file) *</span>
                 </label>
                 <?php echo "Old file: ", $issue_paper ;?>
+                <input type="hidden"  name="old_issue_file" id="old_issue_file" value="<?php echo $issue_paper;?>" />
                 <?php echo form_upload(['name'=> 'userfile', 'value'=> 'issue_paper']);?>
 
                 <span></span>
@@ -74,6 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <span style="color:red">(only docs/doc/pdd file) *</span>
                 </label>
                 <?php echo "Old file: ", $certificate ;?>
+                <input type="hidden"  name="old_certificate" id="old_certificate" value="<?php echo $certificate;?>" />
                 <?php echo form_upload(['name'=> 'certificate','value'=>'certificate' ]);?>
 
             </div> 

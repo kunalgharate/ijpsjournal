@@ -23,10 +23,13 @@
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
     <br>
-                         <?php if($this->session->flashdata('message')){?>
-  <div class="alert alert-success">      
-    <?php echo $this->session->flashdata('message')?>
-  </div>
+    <?php if ($this->session->flashdata('message')) { ?>
+
+<div class="alert alert-success">
+  <a href="<?php echo base_url().'Menuscript'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong><?php echo $this->session->flashdata('message'); ?></strong>
+</div>
+
 <?php } ?>
 
                             <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Menuscript/create'?> " style="padding:20px;">

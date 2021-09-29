@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" />
     <!-- wow Animation css -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/animate.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
     <!-- revolution slider css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/settings.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/layers.css" />
@@ -39,6 +41,54 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
           <![endif]-->
+          <style>
+          .fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 4px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+
+  color: white;
+}
+
+
+
+.fa-instagram {
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+  color: white;
+}
+</style>
 </head>
 <body id="default_theme" class="it_service">
     <!-- loader -->
@@ -86,11 +136,7 @@
                                         </span>
                                 </li >
                   
-                                 <li ><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
-                                    <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
-                                    <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
-                                    <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
-                                    <li><a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li> 
+                               
                             </ul>
                         </div>
 
@@ -115,19 +161,34 @@
                         <a href="<?php echo base_url();?>">
                             <img src="<?php echo base_url();?>assets/images/logos/logo.webp" alt="logo" />
                         </a>
+                        
+                       
                     </div>
                     <!-- logo end -->
+               
                 </div>
+
                 <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                     <!-- menu start -->
+                
                     <div class="menu_side">
+                    <tabel style="align:left;  margin-left: 230px;">
+                    <tr>
+                        <br>
+                    <a style="text-align:center; color:#3e98ff; font-size:200%;  font-family: Sofia, sans-serif; ">An ISO Certified peer-reviewed journal</a>&nbsp;&nbsp;&nbsp;&nbsp;&amp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;
+                   <a  class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a>
+                                    <a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a>
+                                    <a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a>
+                                    <a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a>
+                    </tr>
+                                </table>
                         <div id="navbar_menu">
                             <ul class="first-ul">
                                 <li>
                                     <a class="active" href="<?php echo base_url();?>">Home</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>#">About</a>
+                                    <a href="<?php echo base_url();?>">About</a>
                                     <ul>
                                         <li>
                                             <a href="<?php echo base_url();?>about">About Us</a>

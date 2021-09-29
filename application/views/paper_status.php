@@ -65,6 +65,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/paper_status">
         Paper Status
       </a>
+      <a href="<?php echo base_url(); ?>admin/contact_data">
+        Contact Data
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
@@ -74,14 +77,14 @@ body {
 
 
 <div class="section padding_layout_1">
-<div class="container" style="margin-top:-6%">
+<div class="container" style="margin-top:-6% ;  padding-top: 10px;">
 <div class="row">
 <div class="col-md-9">
 <section class="services-single">
     <div class="default-text-block" style="overflow:hidden;">
-    <?php if($this->session->flashdata('message')){?>
+    <?php if($this->session->flashdata('paper_status')){?>
   <div class="alert alert-success">      
-    <?php echo $this->session->flashdata('message')?>
+    <?php echo $this->session->flashdata('paper_status')?>
   </div>
 <?php } ?>
             

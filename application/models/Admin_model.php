@@ -72,6 +72,13 @@ class Admin_model extends CI_Model {
        
     
     }
-
+   # contact_data
+   public function contact_data() {
+    $this->db->select('*');
+    $this->db->from('contact')
+            ->order_by('id','desc');
+    $objQuery = $this->db->get();
+    return $objQuery->result_array();
+}
 }  
   

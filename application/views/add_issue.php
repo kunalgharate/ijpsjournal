@@ -65,6 +65,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/paper_status">
         Paper Status
       </a>
+      <a href="<?php echo base_url(); ?>admin/contact_data">
+        Contact Data
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
 <div class="container" style="margin-right: 20px;">
@@ -78,12 +81,15 @@ body {
                     <section class="services-single">
 
                         <div class="default-text-block" style="overflow:hidden;">
-                        <?php if($this->session->flashdata('message')){?>
-  <div class="alert alert-success">      
-    <?php echo $this->session->flashdata('message')?>
-  </div>
-<?php } ?>
+                        <?php if ($this->session->flashdata('add_issue')) { ?>
 
+<div class="alert alert-success">
+  <a href="<?php echo base_url().'admin/add_issue'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong><?php echo $this->session->flashdata('add_issue'); ?></strong>
+</div>
+
+<?php } ?>            
+   </div>
                             <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url().'admin/create_issue'?> " style="padding:20px;">
                             <div class="form-group">
                                     <label for="Title">

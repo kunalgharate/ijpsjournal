@@ -65,6 +65,9 @@ body {
       <a href="<?php echo base_url(); ?>admin/paper_status">
         Paper Status
       </a>
+      <a href="<?php echo base_url(); ?>admin/contact_data">
+        Contact Data
+      </a>
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
@@ -74,12 +77,15 @@ body {
                    <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD ISSUE</a>
 </td>
                   </table>
-                  <?php if($this->session->flashdata('message')){?>
-  <div class="alert alert-success">      
-    <?php echo $this->session->flashdata('message')?>
-  </div>
-<?php } ?>
-                    <table class="table">
+                  <?php if ($this->session->flashdata('issue_data')) { ?>
+
+<div class="alert alert-success">
+  <a href="<?php echo base_url().'admin/issue_data'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong><?php echo $this->session->flashdata('issue_data'); ?></strong>
+</div>
+
+<?php } ?>                
+   <table class="table">
                 
                         <thead>
                             <tr>
@@ -122,7 +128,7 @@ body {
                         ?>
                         <?php else:?>
                             <tr>
-                                <td colsapn="3">NO Data availabel!</td>
+                                <td colsapn="3">NO Data available!</td>
                             </tr>
                         <?php endif;?>
                     </table>

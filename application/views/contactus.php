@@ -23,9 +23,17 @@
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
       
-      
+      <?php if ($this->session->flashdata('contact')) { ?>
+
+<div class="alert alert-success">
+  <a href="<?php echo base_url().'contactus'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong><?php echo $this->session->flashdata('contact'); ?></strong>
+</div>
+
+<?php } ?>
             <h1 class="text-center"><b>Contact Us</b></h1><br>
-    
+            
+            <form  method="post" name="contactus"  enctype="multipart/form-data" action="<?php echo base_url().'ContactUs/send'?> ">
             <!-- Name input-->
             <div class="form-group">
               <label class="col-md-4 control-label" for="name">Name</label>
@@ -46,14 +54,16 @@
             <div class="form-group">
               <label class="col-md-4 control-label" for="message">Your message</label>
               <div class="col-md-11">
-                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                <textarea class="form-control"    maxlength="400" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
               </div>
             </div>
     
             <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-10 text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                
+            	<input type="submit" class="btn btn-primary btn-lg" name="send" value="Submit" />
+                
               </div>
             </div>
           </fieldset>

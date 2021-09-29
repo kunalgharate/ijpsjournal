@@ -45,7 +45,10 @@ class Login extends CI_Controller {
 
             }
             else{
-                echo "Username or Password Not match";
+                $this->session->set_flashdata('notmatch', 'Username or Password Not match');
+                return redirect('login');
+                
+               # echo "Username or Password Not match";
 
             }
 

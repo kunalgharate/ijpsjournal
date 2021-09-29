@@ -11,6 +11,15 @@ class CopyrightForm extends CI_Controller {
 		$this->load->view('includes/footer');
      
 	}
+	function download($filename = NULL) {
+        // load download helder
+        $this->load->helper('download');
+        // read file contents
+        $data = file_get_contents(base_url('/uploads/copyrightform/'.$filename));
+        force_download($filename, $data);
+    }
+
+	
 
 	
 }

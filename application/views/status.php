@@ -20,7 +20,7 @@
 
 
 <div class="container shadow-sm" style=" margin-left: auto;
-    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    margin-right: auto; padding-top: 10px;   margin-top: 35%;   margin-bottom: 10%;
     width: 50em">
   
  
@@ -28,29 +28,32 @@
                 
                 <thead>
                     <tr>
-                    <th>Id</th>
+                    <th>Article_id</th>
                     <th>Name</th> 
                     <th>Title</th> 
-                    <th>Article_id</th>
                     <th>Status</th>
                     
 </tr>  </thead>
-
-            <?php if(count(['statusview'])): ?>
-              <?php foreach($statusview  as $psd) {  ?>
+                <?php if ($statusview !== Null): ?>
+            
+             
+              <?php foreach($statusview as $psd) {  ?>
                     <td>
                         
                     
                     <h5><?php echo $psd; ?></h5>
-                        
+                   
                     </td>
                 <?php  }  ?>
+            
              <?php else:?>
                     <tr>
-                        <td colsapn="3">NO Data availabel!</td>
+                        <td colsapn="3">NO Status Available!</td>
                     </tr>
             <?php endif;?>
-            </table>
-             </div>  
         
+            </table>
+           
+             </div> 
+            
                 

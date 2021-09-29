@@ -23,7 +23,9 @@
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
 
-                            <h4>Copyright Form </h4><p class="middle">Download</p>                                         
+                            <h4>Copyright Form </h4>
+                            <?php $fname='copyrightform.pdf'; ?>
+<a  style="color : #FFA500;" href="<?php echo base_url(); ?>/copyrightform/download/<?php echo $fname; ?>">Download</a>                                        
                         </div>
                 
 

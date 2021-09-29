@@ -164,6 +164,12 @@ label {
 
                 <div class="col-lg-12 login-form">
                     <div class="col-lg-12 login-form">
+
+                    <?php if($this->session->flashdata('notmatch')){?>
+  <div class="alert alert-danger">      
+    <?php echo $this->session->flashdata('notmatch')?>
+  </div>
+<?php } ?>
                         
                         <form>
                             <div class="form-group">

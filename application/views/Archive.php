@@ -1,3 +1,4 @@
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
@@ -21,9 +22,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
+  <!--- <?php #rint_r($Archivedata) ; 
+   # echo "<pre>";
+      # foreach ($Archivedata as $year){
+       #    echo key($Archivedata);
+           
+          
+        #   echo "<pre>";
+       
+        #foreach ($year as $volume){
+            #echo $volume;
+         #   echo key($year);
+          #  echo "<pre>";
+          # foreach ($volume as $issue){
+                #echo key($volume);
 
+           ##echo "<pre>";
+
+        #}
+       #}
+    #}
+    
+        #print_r($isd);
+   ?>--->
 <div class="container shadow-sm" style=" margin-left: auto;
-    margin-right: auto; padding-top: 10px;   margin-top: 30%;  
+    margin-right: auto; padding-top: 10px;   margin-top: 32%;  
     width: 50em">
                    
                    <h3>Archive</h3>
@@ -33,42 +56,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <th>Year</th>
                             <th>volume</th>
                             <th>Issue</th>
+                           
 </tr>
 
-                <?php if(count($Archivedata)): ?>
+<?php  
+ foreach($Archivedata as $year){?>
+    <tr>
+               <td><?php echo key($Archivedata); ?></td>
+               <td> <?php  echo key($year); ?></td>
+      <?php  foreach ($year as $volume){ ?>
+        
 
+          <?php  foreach ($volume as $issue){ ?>
+          
+            <td>
+          <a style=" background-color: #4CAF50;   color: white;  padding: 5px 15px;
+            text-align: center;" href="<?php echo base_url(); ?>Archive/Archive_issue/<?php  echo key($Archivedata); ?>/<?php echo key($year); ?>/<?php  echo $issue; ?>"><?php  echo "I ",$issue; ?></a>
+             </td>
+          
 
-                    <?php $row_count = 1;
-                        foreach ($Archivedata as $isd) {
-                     ?>
-   
-                           
-                            <tr>
+       <?php }
+       }
+    }
 
-                            <td>
-                            <?php echo  $isd['issue_date'] ?>
-                        </td>
-                        <td>
-                            <?php echo $isd['volume'] ?></td>
-                            <td>
-                            <?php echo $isd['issue_id'] ?></td>
-                                
-                            
-                        </td>
-                        <tr>
-                            <?php
-                          $row_count++; }
-                        ?>
-                        <?php else:?>
-                            <tr>
-                                <td colsapn="3">NO Data availabel!</td>
-                            </tr>
-                        <?php endif;?>
-                    </table>
+   ?>
+   </tr>
+            
+</table>
                     
                         </div>
-                        </div>
-                                 
-                        
-    </body>
-</html> 
+                     
+
+    

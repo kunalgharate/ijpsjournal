@@ -26,12 +26,14 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="<?php echo base_url();?>assets/images/slide/slide1.jpg" alt="#" style="width:100% ">
+    <div class="text" style="margin-top:10px;  background-color:#3e98ff;"><h1 style="text-align:center; font-size:300%;">Articles form 56+ Countries</h1><br><h5>International Journal of pharmaceutical Research and Application</h5></div>
     
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="<?php echo base_url();?>assets/images/slide/slide2.jpg" alt="#" style="width:100% ">
+    <div class="text" style="margin-top:50px; "><h1 style="text-align:center; background-color:#3e98ff; font-size:300%">An ISO Certified peer-reviewed journal</h1></div>
     
   </div>
 
@@ -86,6 +88,7 @@ function showSlides() {
         </div>
         <div class="row about_blog"  data-aos="fade-up">
             <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="background:#E8E8E8E8;">
+                
                 <div class="full text_align_left">
                     <h3>Why Choose Us</h3>
                     <p>International Journal of Pharmaceutical Research and Applications is online open access journal. Publishing article from many country in the field of Pharmaceutical Sciences and its applications</p>
@@ -103,8 +106,8 @@ function showSlides() {
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 about_feature_img padding_right_0" style="background: #e8e8ea;padding-left: 0px;">
-                <div class="full text_align_center"> <img class="img-responsive" src="https://ijprajournal.com/images/it_service/post-06.jpg" alt="#" /> </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 about_feature_img padding_right_0" style="background: #ffff;padding-left: 0px;">
+                <div class="full text_align_center"> <img height="500" class="img-responsive" src="<?php echo base_url();?>assets/images/it_service/why choose us.jpg" alt="#" /> </div>
             </div>
         </div>
 
@@ -113,7 +116,7 @@ function showSlides() {
             <div class="col-md-12 " style="margin-top: 30px;">
                 <div class="full">
                     <div class="main_heading text_align_center">
-                        <h2>IJPRA JOURNAL PUBLISHES WITHIN 48 HOURS</h2>
+                        <h2>IJPS JOURNAL PUBLISHES WITHIN 48 HOURS</h2>
                     </div>
                 </div>
             </div>
@@ -130,7 +133,7 @@ function showSlides() {
                                    <br> </li>
 
                                 </ul>
-                                <a href="#" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit Today</a>
+                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit Today</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +150,7 @@ function showSlides() {
                                     </li>
 
                                 </ul>
-                                <a href="#" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit today</a>
+                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit today</a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +168,7 @@ function showSlides() {
                                     </li>
 
                                 </ul>
-                                <a href="#" class="btn btn-block btn-primary text-uppercase" id="myBtn">Submit today</a>
+                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn">Submit today</a>
                             </div>
                         </div>
                     </div>
@@ -185,21 +188,26 @@ function showSlides() {
             <div class="col-md-12">
                 <div class="full">
                     <div class="main_heading text_align_center">
-                        <h2>IJPRA Journal Features</h2>
+                        <h2>IJPS Journal Features</h2>
                         <p class="large">Easy and effective way to get your article publish.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row"  data-aos="fade-up">
-            <div class="col-md-12">
+
+            <div class="col-md-14">
                 <div class="row">
+                
+               <!-- <div style="margin: right 0px;" >
+                <img  hight="500" src="<?php echo base_url();?>assets/images/it_service/features.png" alt="#" />
+</div>-->
                     <div class="col-md-4">
                         <div class="full">
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si1.png" alt="#" /></div>
                                 <h4 class="service-heading">Fast service</h4>
-                                <p>IJPRA publishes articles within 48 hrs as it has a wide team of reviewers</p>
+                                <p>IJPS publishes articles within 48 hrs as it has a wide team of reviewers</p>
                             </div>
                         </div>
                     </div>
@@ -217,7 +225,7 @@ function showSlides() {
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si3.png" alt="#" /></div>
                                 <h4 class="service-heading">Expert team</h4>
-                                <p>IJPRA has board members from Top Institutes and University</p>
+                                <p>IJPS has board members from Top Institutes and University</p>
                             </div>
                         </div>
                     </div>
@@ -226,7 +234,7 @@ function showSlides() {
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si4.png" alt="#" /></div>
                                 <h4 class="service-heading">E-Certificates</h4>
-                                <p> IJPRA provides e-certificates for all publishes articles within 4 hrs.</p>
+                                <p> IJPS provides e-certificates for all publishes articles within 4 hrs.</p>
                             </div>
                         </div>
                     </div>
@@ -235,7 +243,7 @@ function showSlides() {
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si5.png" alt="#" /></div>
                                 <h4 class="service-heading">ISSN</h4>
-                                <p> IJPRA Journal has a valid ISSN 2249-7781</p>
+                                <p> IJPS Journal has a valid ISSN 2249-7781</p>
                             </div>
                         </div>
                     </div>
@@ -262,7 +270,7 @@ function showSlides() {
                 <div class="full">
                     <div class="main_heading text_align_center">
                         <h2>For Authors</h2>
-                        <p class="large">Fast Publication within 48 hrs in minimum fees 1400 Rs</p>
+                        <p class="large">Fast Publication within 48 hrs in minimum fees 1200 Rs</p>
                     </div>
                 </div>
             </div>
@@ -270,10 +278,10 @@ function showSlides() {
         <div class="row"  data-aos="fade-up">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="author-guidelines.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/1.jpg" alt=""></a> </div>
+                    <div class="product_img"> <a href="author-guidelines.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/1.webp" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                        <h4><a href="author-guidelines.html">Instruction For Authors</a></h4>
+                        <h4><a href="<?php echo base_url().'AuthorGuidelines'?> ">Instruction For Authors</a></h4>
                         </div>
                  <div class="starratin">
                     <div class="center"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -290,10 +298,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="submit-manuscript.html"> <img class="img-responsive" src="https://ijprajournal.com/images/it_service/2.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="submit-manuscript.html"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/2.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="submit-manuscript.html">Submit Paper</a></h4>
+                            <h4><a href="<?php echo base_url().'Menuscript'?>">Submit Paper</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -312,10 +320,10 @@ function showSlides() {
                 <div class="product_list">
 
 
-                    <div class="product_img"><a href="current-issue6f14.html?issueid=34"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/3.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="current-issue6f14.html?issueid=34"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/3.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="current-issue6f14.html?issueid=34">Current Issue</a></h4>
+                            <h4><a href="<?php echo base_url().'CurrentIssue'?>">Current Issue</a></h4>
                         </div>
 
 
@@ -334,10 +342,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="editorial-board.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/4.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href=""><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/4.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="editorial-board.html">Editorial Board</a></h4>
+                            <h4><a href="<?php echo base_url().'EditorialBoard'?>">Editorial Board</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -354,10 +362,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="membership.html"> <img class="img-responsive" src="https://ijprajournal.com/images/it_service/5.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="membership.html"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/5.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="membership.html">Membership Form</a></h4>
+                            <h4><a href="<?php echo base_url().'#'?>">Membership Form</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -374,10 +382,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="peer-review-process.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/6.jpg" alt=""></a> </div>
+                    <div class="product_img"> <a href="peer-review-process.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/6.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="peer-review-process.html">Peer Review Process</a></h4>
+                            <h4><a href="<?php echo base_url().'PeerReviewProcess'?>">Peer Review Process</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -395,17 +403,17 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="pay-fees.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/7.jpg" alt=""> </a></div>
+                    <div class="product_img"> <a href="pay-fees.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/7.jpg"  alt=""> </a></div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="pay-fees.html">Publication Charges</a></h4>
+                            <h4><a href="<?php echo base_url().'PayFee'?>">Publication Charges</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
                         </div>
                         <div class="product_price">
                             <br>
-                            <p><span class="old_price"></span><span class="new_price"> Rs 1400 Only</span></p>
+                            <p><span class="old_price"></span><span class="new_price"> Rs 1200 Only</span></p>
                        <br>
                         </div>
                     </div>
@@ -413,10 +421,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="copyright-form.html"><img class="img-responsive" src="https://ijprajournal.com/images/it_service/8.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="<?php echo base_url().'copyrightform'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/8.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="copyright-form.html">Download Copyright Form</a></h4>
+                            <h4><a href="<?php echo base_url().'CopyrightForm'?>">Download Copyright Form</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -447,6 +455,7 @@ function showSlides() {
             <div class="col-md-12">
                 <div class="full">
                     <div class="main_heading text_align_center">
+                   
                         <h2>Our Statistics</h2>
                         <p class="large">Guidance to Enhance the Quality of Research.</p>
                     </div>
@@ -454,35 +463,38 @@ function showSlides() {
             </div>
         </div>
         <div class="row counter">
-            <div class="col-md-3 ">
+        <img class="img-responsive" hight="700" width="400" src="<?php echo base_url(); ?>assets/images/it_service/ststistics.jpg"  alt="">
+            <div class="col-md-2 ">
                 <div class="text_align_center"><i class="fa fa-smile-o"></i></div>
                 <div class="text_align_center">
                     <p class="counter-heading text_align_center">Issue Released</p>
                 </div>
                 <h5 class="counter-count ">8</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="text_align_center"><i class="fa fa-laptop"></i></div>
                 <div class="text_align_center">
                     <p class="counter-heading text_align_center">Indexing</p>
                 </div>
                 <h5 class="counter-count">7</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-13">
                 <div class="text_align_center"><i class="fa fa-users"></i></div>
                 <div class="text_align_center">
-                    <p class="counter-heading">Happy Authors</p>
+                    <p class="counter-heading">&nbsp;Happy Authors</p>
                 </div>
-                <h5 class="counter-count">500</h5>
+                <h5 class="counter-count">&nbsp;500</h5>
             </div>
+            
             <div class="col-md-3">
                 <div class="text_align_center"><i class="fa fa-book"></i></div>
                 <div class="ttext_align_center">
-                    <p class="counter-heading">Reviewers</p>
+                    <p class="counter-heading">&nbsp;Reviewers</p>
                 </div>
                 <h5 class="counter-count">50</h5>
             </div>
         </div>
+
     </div>
 </div>
 <!-- end section -->
