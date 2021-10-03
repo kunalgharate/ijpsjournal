@@ -67,10 +67,12 @@ class PayFee extends CI_Controller {
 		$txMsg = $_POST["txMsg"];
 		$txTime = $_POST["txTime"];
 		$signature = $_POST["signature"];
-		$data = $orderId.$orderAmount.$referenceId.$txStatus.$paymentMode.$txMsg.$txTime;
+		$details = $_POST["txcustomerName"];
+		$data = $orderId.$orderAmount.$referenceId.$txStatus.$paymentMode.$txMsg.$txTime.$details;
 		$hash_hmac = hash_hmac('sha256', $data, $secretkey, true) ;
 		$computedSignature = base64_encode($hash_hmac);
-		#print_r($data);exit;
+		print_r($data);
+		exit;
 		if ($signature == $computedSignature) {
 			$this->session->set_flashdata('paystatus',$txStatus);
 			$this->load->view('includes/header');

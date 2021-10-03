@@ -19,6 +19,28 @@
     </script>
 
 
+<script>
+    document.onreadystatechange = function () {
+      const state = document.readyState
+      if (state === 'interactive') {
+        document.querySelector('#app').style.display = 'none'
+      } else if (state === 'complete') {
+        // setTimeout can be used to test the loader.
+        // setTimeout(function () {
+        document.querySelector('.loader-container').style.display = 'none'
+        document.querySelector('#app').style.display = 'block'
+        // }, 3000)
+      }
+    }
+  </script>
+
+<div class="loader-container">
+      <div class="loader">
+          <p>Welcome to Ijpsjournal</p>
+      </div>
+    </div>
+
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
