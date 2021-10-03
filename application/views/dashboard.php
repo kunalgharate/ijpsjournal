@@ -56,7 +56,7 @@ body {
     <div class="sidenav">
       <h2>Dashboard</h2>
       <a href="<?php echo base_url(); ?>admin/dashboard">
-        Menuscript Data
+        Manuscript Data
       </a>
       <a href="<?php echo base_url(); ?>admin/issue_data">
         Issue Data
@@ -70,7 +70,7 @@ body {
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
-                    <h3>Menuscript Data</h3>
+                    <h3>Manuscript Data</h3>
                     <table class="table">
                     
                 

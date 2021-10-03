@@ -46,13 +46,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </label>
                 <select type="text" name="status"  required class="form-control" id="status" >
                 <option value="<?php echo $status; ?>" ><?php echo $status; ?></option>
-                <option value="Review">Review</option>
-                <option value="Review">Review</option>
-              <option value="Submited">Submited</option>
-                <option value="Pulished">Pulished</option>
-               <option value="Discard">Discard</option>
-
+                <option value="Accepted ">Accepted</option>
+                <option value="Under review">Under review</option>
+              <option value="Published">Published</option>
+                <option value="Rejected ">Rejected </option>
                 </select>
+                
+
             </div> 
     
             <div class="form-group">

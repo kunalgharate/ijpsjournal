@@ -6,10 +6,10 @@
                          <div class="title-holder-cell text-left">
                                 
                                 <div class="page-title">
-                                    Submit Menuscript</div>
+                                    Submit Manuscript</div>
                                     <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
                                     <a> > </a>
-                                    <a>   Submit Menuscript</a>
+                                    <a>   Submit Manuscript</a>
                               </div>
                         </div>
                     </div>
@@ -26,13 +26,13 @@
     <?php if ($this->session->flashdata('message')) { ?>
 
 <div class="alert alert-success">
-  <a href="<?php echo base_url().'Menuscript'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <a href="<?php echo base_url().'Manuscript'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
     <strong><?php echo $this->session->flashdata('message'); ?></strong>
 </div>
 
 <?php } ?>
 
-                            <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Menuscript/create'?> " style="padding:20px;">
+                            <form method="post" name="createmenuscript"  enctype="multipart/form-data" action="<?php echo base_url().'Manuscript/create'?> " style="padding:20px;">
                                 <div class="form-group">
                          
                                     <label for="Name">
@@ -79,7 +79,7 @@
                                 <b>Are you getting any problem in Paper Uploading ?</b>
                                 <p style="color:#058ecb">
                                     Don't worry please Submit / Email Research paper at
-                                    <a href="mailto:ijprajournal@editorboard.com">ijprajournal@editorboard.com</a>
+                                    <a href="mailto:ijpsjournal@editorboard.com">ijpsjournal@editorboard.com</a>
                                 </p>
 
 

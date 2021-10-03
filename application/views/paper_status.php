@@ -56,7 +56,7 @@ body {
     <div class="sidenav">
       <h2>Dashboard</h2>
       <a href="<?php echo base_url(); ?>admin/dashboard">
-        Menuscript Data
+        Manuscript Data
       </a>
      
       <a href="<?php echo base_url(); ?>admin/issue_data">
@@ -82,10 +82,14 @@ body {
 <div class="col-md-9">
 <section class="services-single">
     <div class="default-text-block" style="overflow:hidden;">
-    <?php if($this->session->flashdata('paper_status')){?>
-  <div class="alert alert-success">      
-    <?php echo $this->session->flashdata('paper_status')?>
-  </div>
+  
+<?php if ($this->session->flashdata('paper_status')) { ?>
+
+<div class="alert alert-success">
+  <a href="<?php echo base_url().'paper_status'?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong><?php echo $this->session->flashdata('paper_status'); ?></strong>
+</div>
+
 <?php } ?>
             
         <form  method="post" name="add_issue"  enctype="multipart/form-data" action="<?php echo base_url().'admin/create_status'?> " style="padding:20px;">
@@ -116,11 +120,11 @@ body {
                     <span style="color:red">*</span>
                 </label>
                 <select type="text" name="status"  required class="form-control" id="status">
-                <option value="Review">Review</option>
-              <option value="Submited">Submited</option>
-                <option value="Pulished">Pulished</option>
-               <option value="Discard">Discard</option>
-
+                <option value="Accepted ">Accepted </option>
+                <option value="Under review">Under review</option>
+              <option value="Published">Published</option>
+                <option value="Rejected ">Rejected </option>
+               
                 </select>
             </div> 
     

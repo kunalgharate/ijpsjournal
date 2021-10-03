@@ -169,7 +169,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="<?php echo base_url();?>ModelScript">Model Menuscript</a>
+                                            <a href="<?php echo base_url();?>ModelScript">Model Manuscript</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url();?>CheckPaperStatus">Check paper Status</a>
@@ -180,7 +180,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url();?>Menuscript">Submit Manuscript</a>
+                                    <a href="<?php echo base_url();?>Manuscript">Submit Manuscript</a>
                                 </li>
                                 <li>
                                     <a href="#">Issue</a>

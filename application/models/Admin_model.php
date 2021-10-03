@@ -4,7 +4,7 @@ class Admin_model extends CI_Model {
     
     public function get_all_menuscript_data() {
             $this->db->select('*');
-            $this->db->from('menuscript')
+            $this->db->from('manuscript')
                     ->order_by('id','desc');
             $objQuery = $this->db->get();
             return $objQuery->result_array();
