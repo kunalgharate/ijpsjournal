@@ -22,9 +22,8 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
- <img  hight="450" width="400" src="<?php echo base_url();?>assets/images/logos/logo.webp" alt="logo" />
- <br><br>
-                            <h1 align="center"><b><u>Copyright Form</u></b></h1><br>
+ 
+                           <!---- <h1 align="center"><b><u>Copyright Form</u></b></h1><br>
     <p> Manuscript id :...............................<br>
 Title of paper:.................................................................................................<br>
 Name(s) of author(s): ..................................................................................................................................<br>
@@ -40,11 +39,13 @@ State: .............................................................. Country:..
 * Furthermore, the author may only post his/her version provided acknowledgement is given to the original source of publication and a link is inserted to the published article on IJPS Journal website.<br>
 * The submitted/enclosed camera-ready paper is thoroughly proof read by me and in conformity with the instructions for authors communicated to me.<br>
 <br><br>Author's signature(s): .......................................<br><br>
-Date: ..............................................</p>
-                           <br><br>
-<a  style="color : #17a5e9;"  download="<?php echo base_url(); ?>upload/copyrightform/Copyright-Agreement.pdf" href="<?php echo base_url(); ?>upload/copyrightform/Copyright-Agreement.pdf">Download Copyright-Agreement form</a>                                        
+Date: ..............................................</p>---->
+<img   width=750 src="<?php echo base_url();?>assets/images/it_service/Copyright.webp" alt="logo" />
+ <br><br>
+    
+<a  style="align:center; color : #17a5e9;"  download="<?php echo base_url(); ?>upload/copyrightform/Copyright-Agreement.pdf" href="<?php echo base_url(); ?>upload/copyrightform/Copyright-Agreement.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Download Copyright-Agreement form</a>   <br><br>
+                                                     
                         </div>
-                
 
 
 

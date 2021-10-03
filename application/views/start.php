@@ -22,6 +22,7 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
+    <br>
  <?php if ($this->session->flashdata('paystatus')) { ?>
 
 <div class="alert alert-info">
@@ -30,6 +31,7 @@
 </div>
 
 <?php } ?>
+<br><br>
       <form id="redirectForm" method="post" action="request">
 
       <div class="form-group">
@@ -42,22 +44,22 @@
         </div>
         <div class="form-group">
           <label>Phone:</label><br>
-          <input class="form-control" name="customerPhone" placeholder="Enter your phone number here "  required/>
+          <input maxsize=11 class="form-control" name="customerPhone" placeholder="Enter your phone number here "  required/>
         </div>
        
       <div class="form-group">
-          <label>Currency:</label><br>
-          <input class="form-control" name="orderCurrency" value="INR" placeholder="Enter Currency here (Ex. INR)"  required/>
+        <!--  <label>Currency:</label><br>-->
+          <input  type="hidden" class="form-control" name="orderCurrency" value="INR" placeholder="Enter Currency here (Ex. INR)"  required/>
         </div>
        
    
         <div class="form-group">
-          <label>Amount:</label><br>
-          <input class="form-control" name="orderAmount" value="1200"  required/>
+         <!--  <label>Amount:</label><br>-->
+          <input  type="hidden" class="form-control" name="orderAmount" value="1200"  required/>
         </div>
         <div class="form-group">
-          <label>Note:</label><br>
-          <textarea  class="form-control" maxlength="255" name="orderNote" rows="3" placeholder="Enter Note here"></textarea>
+         <!--  <label>Note:</label><br> -->
+          <input type="hidden" class="form-control" maxlength="255" name="orderNote" rows="3" placeholder="Enter Note here"/>
         </div>    
       
        

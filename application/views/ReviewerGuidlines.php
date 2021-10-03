@@ -6,10 +6,10 @@
                          <div class="title-holder-cell text-left">
                                 
                                 <div class="page-title">
-                                    Reviwer Guidlines</div>
+                                    Reviewer Guidlines</div>
                                     <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
                                     <a> > </a>
-                                    <a> Reviwer Guidlines</a>
+                                    <a> Reviewer Guidlines</a>
                               </div>
                         </div>
                     </div>
@@ -45,9 +45,9 @@ By acting as a reviewer you can:<br></p>
 <p class="middle"><b> &#9679;   Help authors improve their papers by providing your professional expertise.</b>&nbsp;Gain a sense of prestige in being consulted as an expert!<br><b> &#9679; 
 Play an important role in maintaining a good, rigorous peer-review process.</b><br><b> &#9679; Expand your awareness of the current research emerging within your field.</b><br><b> &#9679; Build relationships and improve your academic and professional profile</b>.Although often anonymous, the review process can enable a discussion (between author, reviewer, and editor) around a research field or topic.<br><b>&#9679;Improve your own writing skills.</b>Reviewing others work can make it easier to spot commons errors in your own.<br></p>
 <h4>Before saying “yes”</h4>
-<h5>Before agreeing to review for a manuscript in JDDT journal, consider the following:</h5>
-<p class="middle">&#9679;You need to register in JDDT Journal on home page by registering yourself as reviewer, and create your login ID.
-    <br>&#9679; JDDT Journal operating Double blind form of review.  <br>&#9679;
+<h5>Before agreeing to review for a manuscript in IJPS journal, consider the following:</h5>
+<p class="middle">&#9679;You need to register in IJPS Journal on home page by registering yourself as reviewer, and create your login ID.
+    <br>&#9679; IJPS Journal operating Double blind form of review.  <br>&#9679;
 You will need to submit your review online as there a structured form for reviewers to complete. <br>&#9679;Do you have any conflicts of interest? If so, make the editor aware immediately.<br>&#9679;Whether you can complete the review in the allotted time. If you later find yourself struggling to meet the deadline, let the editor know, so they can inform the author of any delays & can get it reviewed from other additional reviewers on time. </p>
 <h4>Writing a review: a step-by-step guide</h4>
 <p class="middle">You’ve received your invite and said yes, here’s what to do next.</p>
@@ -146,13 +146,13 @@ Reviewers are asked to provide an assessment of the various aspects of a manuscr
 
 Submission to Accept: the median time (in days) from the published submission date to the final editorial acceptance date is vary from 20 to 60 days.</p>
 <h5>Article transfer service: If the manuscript is rejected</h5><br>
-<p class="middle">JDDT authors can transfer their article submission from one journal to another if they are rejected, without the need to reformat, and without any requirement for further peer review. For this reason, reviewers are informed about the service and are asked for their consent for transferring their review report along with the manuscript to the receiver journal. Reviewers are given the option to reveal their identity to the editor of the receiver journal or stay anonymous. The benefits of manuscript review cascades are twofold:<br>
+<p class="middle">IJPS authors can transfer their article submission from one journal to another if they are rejected, without the need to reformat, and without any requirement for further peer review. For this reason, reviewers are informed about the service and are asked for their consent for transferring their review report along with the manuscript to the receiver journal. Reviewers are given the option to reveal their identity to the editor of the receiver journal or stay anonymous. The benefits of manuscript review cascades are twofold:<br>
 
     &#9679;Reviewers are not asked to review the same manuscript several times for different journals.<br>
     &#9679;Authors do not need to spend additional time reformatting their manuscript.<br>
 </p>
 <h5>Reporting Guidelines</h5><br>
-<p class="middle">JDDT does not mandate the use of reporting guidelines by authors; however, we encourage reviewers to use relevant reporting guidelines to help assess the submission. We particularly encourage the use of:<br>
+<p class="middle">IJPS does not mandate the use of reporting guidelines by authors; however, we encourage reviewers to use relevant reporting guidelines to help assess the submission. We particularly encourage the use of:<br>
 
 
 Guideline related to Journal Policies, Formatting, References etc.<br>
@@ -188,10 +188,9 @@ Guideline related to Journal Policies, Formatting, References etc.<br>
 &#9679; <a style="color:blue;" href="https://ibooked.no/stard-statement.html">STARD</a>for diagnostic accuracy studies<br>
 &#9679; <a style="color:blue;" href=" https://arriveguidelines.org/">     ARRIVE</a>for animal experiments<br>
 </p>
-<p class="middle">PUBLICATION FREQUENCY<br>
-
-Journal of Drug Delivery & therapeutics bimonthly journal (6 issue/year). We always publish every issue timely since starting of this journal. Issue schedule is 15-Jan, 15-March, 15-May, 15-July, 15-September and 15-November in every year for issue 1, 2, 3, 4, 5 and 6 respectively.<br><br>
-ARCHIVING<br>
+<p class="middle"><b>PUBLICATION FREQUENCY</b><br>
+Int. Journal in pharm . Science is a monthly journal. We always publish every issue timely since starting of this journal. Issue schedule 30 date of every month for issue 1,2,3,4,..... respectively.<br><br><b>
+ARCHIVING</b><br>
 
 This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits those libraries to create permanent archives of the journal for purposes of preservation and restoration.<a style="color:blue;" href="http://lockss.org/">More...</a><br>
 
@@ -203,7 +202,7 @@ This Journal provides an <a style="color:blue;" href="http://www.openarchives.or
 2.The submission file is in Open Office, Microsoft Word, RTF, or WordPerfect document file format.<br>
 3.Where available, URLs for the references have been provided.<br>
 4.Manuscripts should be written as per instructions provided in Authors Guidelinessection and accompanied by a covering letter stating the originality and significance of the submitted manuscripts.<br>
-5.The text adheres to the stylistic and bibliographic requirements outlined in the <a style="color:blue;" href="http://jddtonline.info/index.php/jddt/about/submissions#authorGuidelines"> Author Guidelines</a>, which is found in About the Journal.<br>
+5.The text adheres to the stylistic and bibliographic requirements outlined in the <a style="color:blue;" href="<?php echo base_url().'AuthorGuidelines'?>"> Author Guidelines</a>, which is found in About the Journal.<br>
 6.Numbers of Authors: Authorship should be limited to those who have made a significant contribution to conception, design, execution or interpretation of the reported study.<br>
 7.If at any point,  the author(s) discovers a  significant error in submitted manuscript,  then the error or inaccuracy must be reported to the editor.<br>
 8.The authors should ensure that they have written entirely original works, and if the authors have used the work and/or words of others that this has been appropriately cited or quoted.<br>
@@ -211,7 +210,7 @@ This Journal provides an <a style="color:blue;" href="http://www.openarchives.or
 10.Proper acknowledgment of the work of others must always be given. Authors should cite publications that have been influential in determining the nature of the reported work.<br>
 11.If the work involves chemicals, procedures or equipment that have any unusual hazards inherent in their use, the author must clearly identify these in the manuscript.<br>
 
-<br><br>Reviewers' responsibilities<br><br>
+<br><br><b>Reviewers' responsibilities</b><br><br>
 
 1.Reviewers should keep all information regarding papers confidentialand treat them as privileged information.<br>
 2.Reviews should be conducted objectively, with no personal criticismof the author.<br>
@@ -220,9 +219,9 @@ This Journal provides an <a style="color:blue;" href="http://www.openarchives.or
 5.Reviewers should also call to the Editor in Chief's attention any substantial similarity or overlap between the manuscript under consideration and any other published paper of which they have personal knowledge.<br>
 6.Reviewers should not review manuscripts in which they have conflicts of interestresulting from competitive, collaborative, or other relationships or connections with any of the authors, companies, or institutions connected to the papers.<br>
 
-<br><br>Editorial Staff’s responsibilities<br><br>
+<br><br><b>Editorial Staff’s responsibilities</b><br><br>
 
-1.The editor is responsible for deciding which of the articles submitted to the journal should be published.
+1.The editor is responsible for deciding which of the articles submitted to the journal should be published.<br>
 2.Unpublished materials disclosed in a submitted manuscript must not be used in an editor's own research without the express written consent of the author.<br>
 3.An editor at any time evaluates manuscripts for their intellectual content without regard to race, gender, sexual orientation, religious belief, ethnic origin, citizenship, or political philosophy of the authors.<br>
 4.The editor and any editorial staff must not disclose any information about a submitted manuscript to anyone other than the corresponding author, reviewers, potential reviewers, other editorial advisers, and the publisher, as appropriate.<br>
@@ -230,9 +229,9 @@ This Journal provides an <a style="color:blue;" href="http://www.openarchives.or
 
 Unpublished materials disclosed in a submitted manuscript must not be used in an editor's own research without the express written consent of the author.<br>
 
-<br>Publisher’s Responsibilities<br><br>
+<br><b>Publisher’s Responsibilities</b><br><br>
 
-Maintain Relationship<br><br>
+<b>Maintain Relationship</b><br><br>
 
 To maintain the relationship with editors and parties involved in the publication and should support the editorial decisions and should work in the way to achieve the publication goal set by the editor.<br>
 
@@ -243,7 +242,7 @@ To maintain the confidentiality of author and his/her research work.<br>
 Maintain the policies<br>
 
 To promote and encourage policies regarding journals ethics, authorship, editorial independence, conflict of interest, research funding, review system and process.<br>
-<br>Corrections, Retractions, Republication, and errors<br><br>
+<br><b>Corrections, Retractions, Republication, and errors</b><br><br>
 
 To publish corrections, clarification, retractions whenever required. Publication should be done on the timely basis to achieve timeliness of publishing schedule of the journal.<br>
 

@@ -171,9 +171,9 @@
                                         <li>
                                             <a href="<?php echo base_url();?>CallForPaper">Call for Paper</a>
                                         </li>
-                                        <li>
+                                       <!--- <li>
                                             <a href="<?php echo base_url();?>Topics">Topics</a>
-                                        </li>
+                                        </li>--->
                                         <li>
                                             <a href="<?php echo base_url();?>AuthorGuidelines">Author Guidelines</a>
                                         </li>

@@ -55,7 +55,6 @@
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="<?php echo base_url();?>assets/images/slide/slide2.jpg" alt="#" style="width:100% ">
-    <div class="text" style="margin-top:50px; "><h1 style="text-align:center; background-color:#3e98ff; font-size:300%">An ISO Certified peer-reviewed journal</h1></div>
     
   </div>
 
@@ -103,7 +102,7 @@ function showSlides() {
                 <div class="full">
                     <div class="main_heading text_align_center">
                         <h2>We are International Journal</h2>
-                        <p class="large">Fastest publication service within 48 hrs!</p>
+                        <p class="large">Fastest publication service </p>
                     </div>
                 </div>
             </div>
@@ -117,7 +116,7 @@ function showSlides() {
                     <ul>
                         <li><i class="fa fa-check-circle"></i>Peer-Reviewed Multi-disciplinary Journal</li>
                         <li><i class="fa fa-check-circle"></i>Strict Policy against Plagiarism</li>
-                        <li><i class="fa fa-check-circle"></i>Fast Track Publication within 48 Hours
+                        <li><i class="fa fa-check-circle"></i>Fast Track Publication 
                             <!-- (Guaranteed) after receiving of Publication Fee &amp; Copyright Form. -->
                         </li>
                         <li><i class="fa fa-check-circle"></i>Notification for Review within 24 Hours of Paper Submission.</li>
@@ -138,7 +137,7 @@ function showSlides() {
             <div class="col-md-12 " style="margin-top: 30px;">
                 <div class="full">
                     <div class="main_heading text_align_center">
-                        <h2>IJPS JOURNAL PUBLISHES WITHIN 48 HOURS</h2>
+                        <h2>IJPS JOURNAL PUBLISHES 4 TO 5 DAYS</h2>
                     </div>
                 </div>
             </div>
@@ -151,7 +150,7 @@ function showSlides() {
                                 <h3 class="card-title text-muted text-uppercase text-center" >Call for Papers</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24x7WORKING</p>
+                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24 x 7WORKING</p>
                                    <br> </li>
 
                                 </ul>
@@ -185,7 +184,7 @@ function showSlides() {
                                 <h3 class="card-title text-muted text-uppercase text-center">E-Certificates</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><</span><br><p align="center" style="font-size: 200%;">Within 04Hours</p>
+                                    <li><span class="fa-li"><</span><br><p align="center" style="font-size: 200%;">Within 04 Hours</p>
                                    <br> 
                                     </li>
 
@@ -238,7 +237,7 @@ function showSlides() {
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src="<?php echo base_url();?>assets/images/it_service/si2.png" alt="#" /></div>
                                 <h4 class="service-heading">Publication Fees</h4>
-                                <p>Fees is very low. Online publication charges are 1400 Rs only</p>
+                                <p>Fees is very low. Online publication charges are 1200 Rs only</p>
                             </div>
                         </div>
                     </div>
@@ -264,8 +263,8 @@ function showSlides() {
                         <div class="full">
                             <div class="service_blog_inner">
                                 <div class="icon text_align_left"><img src=" <?php echo base_url();?>assets/images/it_service/si5.png" alt="#" /></div>
-                                <h4 class="service-heading">ISSN</h4>
-                                <p> IJPS Journal has a valid ISSN 2249-7781</p>
+                                <h4 class="service-heading">Open Access</h4>
+                                <p> IJPS Journal is a free and open access journal</p>
                             </div>
                         </div>
                     </div>
@@ -292,7 +291,7 @@ function showSlides() {
                 <div class="full">
                     <div class="main_heading text_align_center">
                         <h2>For Authors</h2>
-                        <p class="large">Fast Publication within 48 hrs in minimum fees 1200 Rs</p>
+                       <!--- <p class="large">Fast Publication within 48 hrs in minimum fees 1200 Rs</p> -->
                     </div>
                 </div>
             </div>
@@ -331,7 +330,7 @@ function showSlides() {
                         <div class="product_price">
                             <br>
                             <p>
-                                <!-- <span class="old_price">$24.99</span> --><span class="new_price">Publish Within 48 hrs</span>
+                                <!-- <span class="old_price">$24.99</span> --><span class="new_price">View</span>
                             </p>
                             <br>
                         </div>
@@ -425,7 +424,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="pay-fees.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/7.jpg"  alt=""> </a></div>
+                    <div class="product_img"> <a href="pay-fees.html"><img width=500 class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/7.jpg"  alt=""> </a></div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'PayFee'?>">Publication Charges</a></h4>
@@ -491,21 +490,21 @@ function showSlides() {
                 <div class="text_align_center">
                     <p class="counter-heading text_align_center">Issue Released</p>
                 </div>
-                <h5 class="counter-count ">8</h5>
+                <h5 class="counter-count ">1</h5>
             </div>
             <div class="col-md-2">
                 <div class="text_align_center"><i class="fa fa-laptop"></i></div>
                 <div class="text_align_center">
                     <p class="counter-heading text_align_center">Indexing</p>
                 </div>
-                <h5 class="counter-count">7</h5>
+                <h5 class="counter-count">0</h5>
             </div>
             <div class="col-md-13">
                 <div class="text_align_center"><i class="fa fa-users"></i></div>
                 <div class="text_align_center">
                     <p class="counter-heading">&nbsp;Happy Authors</p>
                 </div>
-                <h5 class="counter-count">&nbsp;500</h5>
+                <h5 class="counter-count">&nbsp;10</h5>
             </div>
             
             <div class="col-md-3">
@@ -513,7 +512,7 @@ function showSlides() {
                 <div class="ttext_align_center">
                     <p class="counter-heading">&nbsp;Reviewers</p>
                 </div>
-                <h5 class="counter-count">50</h5>
+                <h5 class="counter-count">10</h5>
             </div>
         </div>
 
@@ -530,7 +529,7 @@ function showSlides() {
                 <div class="full">
                     <div class="main_heading text_align_center">
                         <h2>Our Testimonal</h2>
-                        <p class="large">Here are testimonials from clients..</p>
+                        <p class="large">Here are testimonials from authors..</p>
                     </div>
                 </div>
             </div>
@@ -543,14 +542,15 @@ function showSlides() {
                             <img src="https://images.unsplash.com/photo-1601933513556-7926c45d1c49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
                         </div>
                         <div class="user_content">
-                            <h1>Brooke Cagle
+                            <h1>Shubham Gore
                             </h1>
-                            <p>Verifed Buyer</p>
+                            <p>Department of Pharmacology</p>
                         </div>
                     </div>
                     <div class="user_info">
-                        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order. but we also recived it in time. Excellent!"</p>
+                        <p>"IJPS journal:Open Access Journal. a broad-based journal was founded on two key tenets. To publish the most exciting researches with represent to the subjects of pharmaceutical sciences. Secondly to provide a rapid turn- around time possible for reviewing and publishing and to disseminate the articles freely for research, teaching and reference purposes. "</p>
                     </div>
+                    <br>
                 </div>
             </div>
             <div class="col-md-4">
@@ -560,12 +560,12 @@ function showSlides() {
                             <img src="https://images.unsplash.com/photo-1622456202325-c3d5c2eb4d84?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="">
                         </div>
                         <div class="user_content">
-                            <h1>Dyandeep Panchal</h1>
-                            <p>Verifed Buyer</p>
+                            <h1>Komal ushir</h1>
+                            <p>Deparment of pharmaceutical Chemistry</p>
                         </div>
                     </div>
                     <div class="user_info">
-                        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+                        <p>"As a peer-reviewed academic journal,the Int. Jour. in pharmaceutical sciences provides an opportunity to research and scientist to explore the developments in the field of pharmacy and other ernerging areas of medical research.  "</p>
                     </div>
                 </div>
             </div>
@@ -576,12 +576,12 @@ function showSlides() {
                             <img src="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
                         </div>
                         <div class="user_content">
-                            <h1>Mailchimp</h1>
-                            <p>Verifed Buyer</p>
+                            <h1>Rajnandini Ahire</h1>
+                            <p>Department of pharmacceutical Analysis</p>
                         </div>
                     </div>
                     <div class="user_info">
-                        <p>"Put an order with this company and can only praise them for the very high standatd. Will definetley use them agian and recommend them to everyone!"</p>
+                        <p>"It's pleasure serve on the editorial board of IJPS and the  oppertunity to review some of the most recent work in my field.The publication process is highly efficient and the reviewers' comments useful and constructive.The online aaccess is smooth and very user-friendly."</p>
                     </div>
                 </div>
             </div>
@@ -617,7 +617,7 @@ function showSlides() {
 </div>
 <!-- End Model search bar -->
 <!-- footer -->
-<!-- section -->
+<!-- section 
 <div class="section padding_layout_1" style="padding: 40px 0;">
     <div class="container">
         <div class="row">
@@ -634,5 +634,5 @@ function showSlides() {
             </div>
         </div>
     </div>
-</div>
+</div>--->
 <!-- end section -->

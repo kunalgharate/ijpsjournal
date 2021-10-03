@@ -22,14 +22,14 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
-                            <h4>International Journal of Pharmaceutical Research and Applications </h4>
+                            <h4 style="background-color:#3e98ff;">International Journal in pharmaceutical Sciences  </h4>
 
                         
                         
                            <p class="middle">Welcomes manuscripts from authors through out the year</p>
-                            <p class="middle">Decision on menuscript: 24 Hours</p>
-                            <p class="middle">Publication Time: 2 Days</p>
-                            <p class="middle">Publication Time: 2 Days</p>
+                            <p class="middle">Decision on manuscript: 24 Hours</p>
+                            <p class="middle">Publication Time:4 to 5 Days</p>
+                            <p class="middle">Publication Fees: 1200 INR</p>
 
 
 

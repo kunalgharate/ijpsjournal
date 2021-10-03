@@ -41,12 +41,12 @@
                   <div class="candidate-list-details">
                     <div class="candidate-list-info">
                       <div class="candidate-list-title">
-                        <h6 class="mb-0" style="color:#3a8bf5;">Dr. Divakar Goli</h6>
+                        <h6 class="mb-0" style="color:#3a8bf5;">Mr. Amol Pimpale</h6>
                       </div>
                       <div class="candidate-list-option">
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-university"></i> Acharya & BM Reddy College of Pharmacy</li>
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Benguluru</li>
+                          <li><i class="fas fa-university"></i>Chief editor International journal in Pharmaceutical Sciences</li>
+                          <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
                         </ul>
                       </div>
                     </div>
@@ -54,7 +54,7 @@
                 </td>
                 </tr>
              
-                <tr class="candidates-list">
+               <!--- <tr class="candidates-list">
                   <td class="title">
                     <div class="thumb">
                       <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
@@ -92,7 +92,7 @@
                           </ul>
                         </div>
                       </div>
-                    </div>
+                    </div>-->
                   </td>
                   </tr>
              
@@ -105,7 +105,7 @@
               
             <tbody>
 
-              <tr class="candidates-list">
+            <!---  <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">
                     <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
@@ -166,7 +166,7 @@
                       </div>
                     </div>
                   </td>
-                  </tr>
+                  </tr>--->
 
                   <tr class="candidates-list">
                     <td class="title">
@@ -176,18 +176,47 @@
                       <div class="candidate-list-details">
                         <div class="candidate-list-info">
                           <div class="candidate-list-title">
-                            <h6 class="mb-0">Dr. N. J. De Souza</h6>
+                            <h6 class="mb-0">Prof. Shubham gore</h6>
                           </div>
                           <div class="candidate-list-option">
-                            <ul class="list-unstyled">
-                              <li><i class="fas fa-map-marker-alt pr-1"></i>Mumbai</li>
-                            </ul>
+                        <ul class="list-unstyled">
+                          <li><i class="fas fa-university"></i>R.G. Sapkal Institute of pharmacy</li>
+                          <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
+                        </ul>
                           </div>
                         </div>
                       </div>
                     </td>
                     </tr>
               </tbody>
+              <thead>
+                <tr>
+                  <th style="color:black;">Managing</th>
+                  </tr>
+              </thead>
+              
+            <tbody>
+
+              <tr class="candidates-list">
+                <td class="title">
+                  <div class="thumb">
+                    <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                  </div>
+                  <div class="candidate-list-details">
+                    <div class="candidate-list-info">
+                      <div class="candidate-list-title">
+                        <h6 class="mb-0">Prof. Hrutuja pagare</h6>
+                      </div>
+                      <div class="candidate-list-option">
+                        <ul class="list-unstyled">
+                          <li><i class="fas fa-university"></i>R.G. Sapkal Institute of pharmacy</li>
+                          <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                </tr>
           </table>
          </div>
       </div>
