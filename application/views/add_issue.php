@@ -56,7 +56,7 @@ body {
     <div class="sidenav">
       <h2>Dashboard</h2>
       <a href="<?php echo base_url(); ?>admin/dashboard">
-        Menuscript Data
+        Manuscript Data
       </a>
 
       <a href="<?php echo base_url(); ?>admin/issue_data">

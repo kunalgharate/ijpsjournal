@@ -19,6 +19,28 @@
     </script>
 
 
+<script>
+    document.onreadystatechange = function () {
+      const state = document.readyState
+      if (state === 'interactive') {
+        document.querySelector('#app').style.display = 'none'
+      } else if (state === 'complete') {
+        // setTimeout can be used to test the loader.
+        // setTimeout(function () {
+        document.querySelector('.loader-container').style.display = 'none'
+        document.querySelector('#app').style.display = 'block'
+        // }, 3000)
+      }
+    }
+  </script>
+
+<div class="loader-container">
+      <div class="loader">
+          <p>Welcome to Ijpsjournal</p>
+      </div>
+    </div>
+
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -133,7 +155,7 @@ function showSlides() {
                                    <br> </li>
 
                                 </ul>
-                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit Today</a>
+                                <a href="<?php echo base_url().'Manuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit Today</a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +172,7 @@ function showSlides() {
                                     </li>
 
                                 </ul>
-                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit today</a>
+                                <a href="<?php echo base_url().'Manuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn" onclick="myFunction()">Submit today</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +190,7 @@ function showSlides() {
                                     </li>
 
                                 </ul>
-                                <a href="<?php echo base_url().'Menuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn">Submit today</a>
+                                <a href="<?php echo base_url().'Manuscript'?>" class="btn btn-block btn-primary text-uppercase" id="myBtn">Submit today</a>
                             </div>
                         </div>
                     </div>
@@ -301,7 +323,7 @@ function showSlides() {
                     <div class="product_img"><a href="submit-manuscript.html"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/2.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="<?php echo base_url().'Menuscript'?>">Submit Paper</a></h4>
+                            <h4><a href="<?php echo base_url().'Manuscript'?>">Submit Paper</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>

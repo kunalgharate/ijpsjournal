@@ -37,7 +37,7 @@
                                 </a>
                             </li>--->
                             <li>
-                                <a href="<?php echo base_url().'Menuscript'?>">
+                                <a href="<?php echo base_url().'Manuscript'?>">
                                     <i class="fa fa-angle-right"></i> Submit Manuscript
                                 </a>
                             </li>
