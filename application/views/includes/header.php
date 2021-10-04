@@ -182,7 +182,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="<?php echo base_url();?>ModelScript">Model Manuscript</a>
+                                            <a href="<?php echo base_url();?>Modelscript">Model Manuscript</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url();?>CheckPaperStatus">Check paper Status</a>

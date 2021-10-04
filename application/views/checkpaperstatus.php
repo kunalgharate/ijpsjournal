@@ -28,7 +28,7 @@
     <form class="form" align="center" action="<?php echo base_url();?>checkpaperstatus/paper_status" name="Article_id" method="post" >
 
      <input  type="text" align="center" placeholder="ENTER ARTICLE ID" name="Article_id"  required><br><br>
-    <button align="center" class="btn btn-success" type="submit">&nbsp;<i class="fa fa-search">GET STATUS&nbsp;</i></button>
+    <button align="center" class="btn btn-success" type="submit">&nbsp;GET STATUS&nbsp;</></button>
 <br>
  
 </form>
