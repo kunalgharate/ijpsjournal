@@ -63,13 +63,17 @@
 <h5>References</h5>
 <p class="middle">(APA Style as per Instruction to Authors, Font; Times New Roman, Size-12, Capital, Bold, Left align)</p>
 <br>
-<?php $fname='Review Articles.pdf'; ?>
-<a  style="color : #FFA500;" href="<?php echo base_url(); ?>/Modelscript/download/<?php echo $fname; ?>">Click here to download Model Manuscript for Review Articles</a>
+<!---
+<a  style="color : #FFA500;" href="<?php echo base_url(); ?>/Modelscript/download/<?php echo $fname;?>">Click here to download Model Manuscript for Review Articles</a>
 <br>
 <br>
-<?php $fname='Research Articles.pdf'; ?>
-<a  style="color : #FFA500;" href="<?php echo base_url(); ?>/Modelscript/download/<?php echo $fname; ?>">Click here to download Model Manuscript for Research Articles</a>
+
+<a  style="color : #FFA500;" href="<?php echo base_url(); ?>/Modelscript/download/<?php echo $fname; ?>">Click here to download Model Manuscript for Research Articles</a>-->
 <br>
+    
+<a  style="align:center; color : #17a5e9;"  download="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf" href="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Review Articles</a>   <br><br>
+    
+<a  style="align:center; color : #17a5e9;"  download="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf" href="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Research Articles</a>   <br><br>
 </div>                 
                     </div>
                 </div>
