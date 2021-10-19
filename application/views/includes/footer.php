@@ -95,12 +95,13 @@
                             <h2>Contact us</h2>
                         </div>
                         <p>
-                            42 A, Second Street, Hamirpur Rourkela Sundargarh Odisha India 769003
+                           Gangapur Road,Nashik - 422013
                             <br />
-                            
                         </p>
-                     <a href="mailto: ijpsjournal@editorboard.com" style="color:white; font-size: 14px;">
-                     <i class="fa fa-angle-right"></i>ijpsjournal@editorboard.com</a>
+                        <p>&nbsp; </p>
+                        <p>&nbsp; </p>
+                   <!--  <a href="mailto: ijpsjournal@editorboard.com" style="color:white; font-size: 14px;">
+                     <i class="fa fa-angle-right"></i>ijpsjournal@editorboard.com</a>-->
                     </div>
                 </div>
             </div>

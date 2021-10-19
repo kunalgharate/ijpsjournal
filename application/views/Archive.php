@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                                 <div class="page-title">
                                 Archive</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a>Archive</a>
                               </div>

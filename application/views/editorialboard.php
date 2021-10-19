@@ -9,7 +9,7 @@
                                 
                                 <div class="page-title">
                                 Editorial Board</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a>Editorial Board</a>
                               </div>
@@ -28,7 +28,7 @@
           <table class="table manage-candidates-top mb-0">
             <thead>
               <tr>
-                <th style="color:black;">EDITORS</th>
+                <th style="color:black;">EDITOR-IN-CHIEF  </th>
                 </tr>
             </thead>
             <tbody>
@@ -36,16 +36,16 @@
               <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">
-                    <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                    <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                   </div>
                   <div class="candidate-list-details">
                     <div class="candidate-list-info">
                       <div class="candidate-list-title">
-                        <h6 class="mb-0" style="color:#3a8bf5;">Mr. Amol Pimpale</h6>
+                        <h6 class="mb-0" style="color:#2E88C9;"> Mr. Amol Pimpale</h6>
                       </div>
                       <div class="candidate-list-option">
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-university"></i>Chief editor International journal in Pharmaceutical Sciences</li>
+                          <li><i class="fas fa-university"></i>  Chief editor International journal in Pharmaceutical Sciences</li>
                           <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
                         </ul>
                       </div>
@@ -57,12 +57,12 @@
                <!--- <tr class="candidates-list">
                   <td class="title">
                     <div class="thumb">
-                      <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                      <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                     </div>
                     <div class="candidate-list-details">
                       <div class="candidate-list-info">
                         <div class="candidate-list-title">
-                          <h6 class="mb-0" style="color:#3a8bf5;">Dr. Anquan Shang</h6>
+                          <h6 class="mb-0" style="color:#2E88C9;">Dr. Anquan Shang</h6>
                         </div>
                         <div class="candidate-list-option">
                           <ul class="list-unstyled">
@@ -78,12 +78,12 @@
                 <tr class="candidates-list">
                   <td class="title">
                     <div class="thumb">
-                      <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                      <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                     </div>
                     <div class="candidate-list-details">
                       <div class="candidate-list-info">
                         <div class="candidate-list-title">
-                          <h6 class="mb-0" style="color:#3a8bf5;">Dr. Fleming Martinez R</h6>
+                          <h6 class="mb-0" style="color:#2E88C9;">Dr. Fleming Martinez R</h6>
                         </div>
                         <div class="candidate-list-option">
                           <ul class="list-unstyled">
@@ -99,7 +99,7 @@
               </tbody>
               <thead>
                 <tr>
-                  <th style="color:black;">ADVISORY BOARD</th>
+                  <th style="color:black;">MANAGING EDITOR</th>
                   </tr>
               </thead>
               
@@ -108,7 +108,7 @@
             <!---  <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">
-                    <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                    <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                   </div>
                   <div class="candidate-list-details">
                     <div class="candidate-list-info">
@@ -129,7 +129,7 @@
                 <tr class="candidates-list">
                   <td class="title">
                     <div class="thumb">
-                      <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                      <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                     </div>
                     <div class="candidate-list-details">
                       <div class="candidate-list-info">
@@ -150,7 +150,7 @@
                 <tr class="candidates-list">
                   <td class="title">
                     <div class="thumb">
-                      <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                      <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                     </div>
                     <div class="candidate-list-details">
                       <div class="candidate-list-info">
@@ -171,16 +171,16 @@
                   <tr class="candidates-list">
                     <td class="title">
                       <div class="thumb">
-                        <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                        <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                       </div>
                       <div class="candidate-list-details">
                         <div class="candidate-list-info">
                           <div class="candidate-list-title">
-                            <h6 class="mb-0">Prof. Shubham gore</h6>
+                            <h6 class="mb-0">Prof. Hrutuja pagare</h6>
                           </div>
                           <div class="candidate-list-option">
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-university"></i>R.G. Sapkal Institute of pharmacy</li>
+                          <li><i class="fas fa-university"></i>  R.G. Sapkal Institute of pharmacy</li>
                           <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
                         </ul>
                           </div>
@@ -191,7 +191,7 @@
               </tbody>
               <thead>
                 <tr>
-                  <th style="color:black;">Managing</th>
+                  <th style="color:black;">ADVISORY BOARD</th>
                   </tr>
               </thead>
               
@@ -200,16 +200,16 @@
               <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">
-                    <i class="fas fa-user-circle fa-3x" style="color:#3a8bf5"></i>
+                    <i class="fas fa-user-circle fa-3x" style="color:#2E88C9"></i>
                   </div>
                   <div class="candidate-list-details">
                     <div class="candidate-list-info">
                       <div class="candidate-list-title">
-                        <h6 class="mb-0">Prof. Hrutuja pagare</h6>
+                        <h6 class="mb-0">Prof. Shubham gore</h6>
                       </div>
                       <div class="candidate-list-option">
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-university"></i>R.G. Sapkal Institute of pharmacy</li>
+                          <li><i class="fas fa-university"></i>  R.G. Sapkal Institute of pharmacy</li>
                           <li><i class="fas fa-map-marker-alt pr-1"></i>Nashik</li>
                         </ul>
                       </div>

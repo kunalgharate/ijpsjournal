@@ -19,26 +19,6 @@
     </script>
 
 
-<script>
-    document.onreadystatechange = function () {
-      const state = document.readyState
-      if (state === 'interactive') {
-        document.querySelector('#app').style.display = 'none'
-      } else if (state === 'complete') {
-        // setTimeout can be used to test the loader.
-        // setTimeout(function () {
-        document.querySelector('.loader-container').style.display = 'none'
-        document.querySelector('#app').style.display = 'block'
-        // }, 3000)
-      }
-    }
-  </script>
-
-<div class="loader-container">
-      <div class="loader">
-          <p>Welcome to Ijpsjournal</p>
-      </div>
-    </div>
 
 
 <!-- Slideshow container -->
@@ -48,7 +28,7 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="<?php echo base_url();?>assets/images/slide/slide1.jpg" alt="#" style="width:100% ">
-    <div class="text" style="margin-top:10px;  background-color:#3e98ff;"><h1 style="text-align:center; font-size:300%;">Articles form 56+ Countries</h1><br><h5>International Journal of pharmaceutical Research and Application</h5></div>
+    <div class="text" style="margin-top:10px;  background-color:#2E88C9;"><h1 style="text-align:center; font-size:300%;">Articles form 56+ Countries</h1><br><h5>International Journal of pharmaceutical Research and Application</h5></div>
     
   </div>
 
@@ -137,20 +117,20 @@ function showSlides() {
             <div class="col-md-12 " style="margin-top: 30px;">
                 <div class="full">
                     <div class="main_heading text_align_center">
-                        <h2>IJPS JOURNAL PUBLISHES 4 TO 5 DAYS</h2>
+                        <h2>IJPS JOURNAL PUBLISHES WITHIN 4 TO 5 DAYS</h2>
                     </div>
                 </div>
             </div>
             <div class="container"  data-aos="fade-up">
                 <div class="row">
                     <!-- Free Tier -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" >
                         <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h3 class="card-title text-muted text-uppercase text-center" >Call for Papers</h3>
+                            <div class="card-body" >
+                                <h3 class="card-title text-muted text-uppercase text-center">Call for Papers</h3>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24 x 7WORKING</p>
+                                    <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24 x 7 WORKING</p>
                                    <br> </li>
 
                                 </ul>

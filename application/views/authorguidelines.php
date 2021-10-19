@@ -7,7 +7,7 @@
                                 
                                 <div class="page-title">
                                 Authors Guidelines</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a> Authors Guidelines</a>
                               </div>
@@ -119,7 +119,7 @@ Provide four to six appropriate key words after abstract</p>
 
 <p class="middle">All authors of submitting manuscript to the journal must disclose any and all conflicts of interest they may have with publication of the manuscript that is mentioned in the manuscript.</p>
 <br><br>
-<a  style="align:center; color : #17a5e9;"  download="<?php echo base_url(); ?>upload/authorguide/Author Guidelines.pdf" href="<?php echo base_url(); ?>upload/authorguide/Author Guidelines.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Download Author Guidelines</a>   <br><br>
+<a  style="align:center; color : #2E88C9;"  download="<?php echo base_url(); ?>upload/authorguide/Author Guidelines.pdf" href="<?php echo base_url(); ?>upload/authorguide/Author Guidelines.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Download Author Guidelines</a>   <br><br>
                                                      
                         </div>
 

@@ -7,7 +7,7 @@
                                 
                                 <div class="page-title">
                                 Editorial policy</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a>Editorial policy</a>
                               </div>

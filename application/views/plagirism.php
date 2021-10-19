@@ -7,7 +7,7 @@
                                 
                                 <div class="page-title">
                                 Plagiarism Policy</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a>Plagiarism Policy</a>
                               </div>

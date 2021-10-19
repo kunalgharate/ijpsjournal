@@ -7,7 +7,7 @@
                                 
                                 <div class="page-title">
                                     Call For Paper</div>
-                                    <a style="color: #17a5e9;" href="<?php echo base_url();?>">Home</a> 
+                                    <a style="color: #2E88C9;" href="<?php echo base_url();?>">Home</a>
                                     <a> > </a>
                                     <a>  Call For Paper</a>
                               </div>
@@ -22,7 +22,7 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 50em">
-                            <h4 style="background-color:#3e98ff;">International Journal in pharmaceutical Sciences  </h4>
+                            <h4 style="background-color:#2E88C9;">International Journal in pharmaceutical Sciences  </h4>
 
                         
                         
