@@ -39,6 +39,10 @@
           <input class="form-control" name="customerName" placeholder="Enter your name here " required/>
         </div>
         <div class="form-group">
+          <label>Papar ID:</label><br>
+          <input class="form-control" name="paparId" placeholder="Enter your Papar ID " required/>
+        </div>
+        <div class="form-group">
           <label>Email:</label><br>
           <input class="form-control" name="customerEmail" placeholder="Enter your email address here"  required/>
         </div>

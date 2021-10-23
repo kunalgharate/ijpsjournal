@@ -28,7 +28,7 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="<?php echo base_url();?>assets/images/slide/slide1.jpg" alt="#" style="width:100% ">
-    <div class="text" style="margin-top:10px;  background-color:#2E88C9;"><h1 style="text-align:center; font-size:300%;">Articles form 56+ Countries</h1><br><h5>International Journal of pharmaceutical Research and Application</h5></div>
+    <!-- <div class="text" style="margin-top:10px;  background-color:#2E88C9;"><h1 style="text-align:center; font-size:300%;">Articles form 56+ Countries</h1><br><h5>International Journal of pharmaceutical Research and Application</h5></div> -->
     
   </div>
 
@@ -127,7 +127,7 @@ function showSlides() {
                     <div class="col-lg-4" >
                         <div class="card mb-5 mb-lg-0">
                             <div class="card-body" >
-                                <h3 class="card-title text-muted text-uppercase text-center">Call for Papers</h3>
+                                <h3 class="card-title text-uppercase text-center">Call for Papers</h3>
                                 <hr>
                                 <ul class="fa-ul">
                                     <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">24 x 7 WORKING</p>
@@ -140,9 +140,9 @@ function showSlides() {
                     </div>
                     <!-- Plus Tier -->
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card up mb-5 mb-lg-0">
                             <div class="card-body">
-                                <h3 class="card-title text-muted text-uppercase text-center">Notification of Acceptance</h3>
+                                <h3 class="card-title blue text-uppercase text-center">Notification of Acceptance</h3>
                                 <hr>
                                 <ul class="fa-ul">
                                     <li><span class="fa-li"></span><br><p align="center" style="font-size: 200%;">Within 24 Hours</p>
@@ -161,7 +161,7 @@ function showSlides() {
 
                             <div class="card-body">
 
-                                <h3 class="card-title text-muted text-uppercase text-center">E-Certificates</h3>
+                                <h3 class="card-title  text-uppercase text-center">E-Certificates</h3>
                                 <hr>
                                 <ul class="fa-ul">
                                     <li><span class="fa-li"><</span><br><p align="center" style="font-size: 200%;">Within 04 Hours</p>
@@ -184,7 +184,7 @@ function showSlides() {
 <!-- end section -->
 <!-- section -->
 <div class="feature_section section padding_layout_1 light_silver"  data-aos="fade-up">
-    <div class="container" >
+    <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12">
                 <div class="full">
@@ -195,9 +195,9 @@ function showSlides() {
                 </div>
             </div>
         </div>
-        <div class="row"  data-aos="fade-up">
+        <div class="row" id="ijpsfeature"  data-aos="fade-up">
 
-            <div class="col-md-14">
+            <div class="col-md-8">
                 <div class="row">
                 
                <!-- <div style="margin: right 0px;" >
@@ -519,7 +519,7 @@ function showSlides() {
                 <div class="cards">
                     <div class="user">
                         <div class="user_img">
-                            <img src="https://images.unsplash.com/photo-1601933513556-7926c45d1c49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+                            <img src="https://media.istockphoto.com/photos/portrait-of-a-confident-young-man-picture-id1141737652?b=1&k=20&m=1141737652&s=170667a&w=0&h=1Ni7irJ6VB9BXN7LbJIdNHP0h5EMoyJcRyvXl5_nzDs=" alt="">
                         </div>
                         <div class="user_content">
                             <h1>Shubham Gore
@@ -537,7 +537,7 @@ function showSlides() {
                 <div class="cards">
                     <div class="user">
                         <div class="user_img">
-                            <img src="https://images.unsplash.com/photo-1622456202325-c3d5c2eb4d84?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1573625857539-29c09fd6b6a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
                         </div>
                         <div class="user_content">
                             <h1>Komal ushir</h1>
@@ -553,7 +553,7 @@ function showSlides() {
                 <div class="cards">
                     <div class="user">
                         <div class="user_img">
-                            <img src="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1536318533971-7a25565daefc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZGlhJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
                         </div>
                         <div class="user_content">
                             <h1>Rajnandini Ahire</h1>

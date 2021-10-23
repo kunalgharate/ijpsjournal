@@ -7,7 +7,7 @@
                         <div class="main-heading left_text">
                             <h2>IJPS Journal</h2>
                         </div>
-                        <p>International Journal of Pharmaceutical Research and Applications (IJPS) is an international peer reviewed, online journal published for the enhancement of research in various disciplines of Pharmaceutical Sciences and its applications</p>
+                        <p>International Journal In Pharmaceutical Sciences (IJPS) is an international peer reviewed, online journal published for the enhancement of research in various disciplines of Pharmaceutical Sciences and its applications</p>
                         <ul class="social_icons">
                             <li class="social-icon fb">
                                 <a href="#">

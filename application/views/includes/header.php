@@ -63,7 +63,7 @@
                                 <!-- <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight">540 Lorem Ipsum New York, AB 90218</span> </li> -->
                                 <li>
                                     <span class="topbar-label" style="color:#ffffff">
-                                        <i class="fa fa-envelope-o" ></i>
+                                        <i style="padding:4px;" class="fa fa-envelope-o" ></i>
                                     </span>
                                     <span class="topbar-hightlight">
                                         <a href="mailto:info@ijpsjournal.com">info@ijpsjournal.com</a>
