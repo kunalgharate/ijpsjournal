@@ -48,7 +48,7 @@
                       
 
                         </ul>
-                        <form method=post action="<?php echo base_url().'payfee/start'?> " >
+                        <form method=post action="<?php echo base_url().'PayFee/start'?> " >
                         <button style="align:center;" class="btn btn-primary" >Pay Fee</button>
 </form>
 

@@ -68,11 +68,11 @@
                                     <i class="fa fa-angle-right"></i> Call for Paper
                                 </a>
                             </li>
-                            <li>
-                                <a href="<?php echo base_url().'Topics'?>">
+                          <!--  <li>
+                                <a href="<?php /*echo base_url().'Topics'*/?>">
                                     <i class="fa fa-angle-right"></i> Topics
                                 </a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="<?php echo base_url().'AuthorGuidelines'?>">
                                     <i class="fa fa-angle-right"></i> Author Guidelines
@@ -96,6 +96,10 @@
                         </div>
                         <p>
                            Gangapur Road,Nashik - 422013
+                            <br />
+                        </p>
+                        <p>
+                            Mail us : <a href="mailto:info@ijpsjournal.com">info@ijpsjournal.com</a>
                             <br />
                         </p>
                         <p>&nbsp; </p>

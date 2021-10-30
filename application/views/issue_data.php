@@ -74,7 +74,7 @@ body {
                     <h2>Issue Data</h2>
                     <table align="right">
                       
-                   <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD ISSUE</a>
+                   <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD PAPER</a>
 </td>
                   </table>
                   <?php if ($this->session->flashdata('issue_data')) { ?>

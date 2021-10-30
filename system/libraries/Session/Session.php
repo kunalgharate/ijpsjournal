@@ -279,7 +279,7 @@ class CI_Session {
 		}
 		else
 		{
-			ini_set('session.name', $params['cookie_name']);
+			ini_set('session.id', $params['cookie_name']);
 		}
 
 		isset($params['cookie_path']) OR $params['cookie_path'] = config_item('cookie_path');
@@ -291,7 +291,7 @@ class CI_Session {
 			$params['cookie_path'],
 			$params['cookie_domain'],
 			$params['cookie_secure'],
-			TRUE // HttpOnly; Yes, this is intentional and not configurable for security reasons
+			TRUE // HttpOnly; Yes, this is intentional and not configurable for secursity reasons
 		);
 
 		if (empty($expiration))

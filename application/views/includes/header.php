@@ -109,7 +109,7 @@
                           <li>
                                 <span class="topbar-label">
                                     <span class="topbar-hightlight">
-                                        <a style="color:#2E88C9;" href="#" >
+                                        <a style="color:#2E88C9;margin-left: 10px;" href="#" >
                                             <b>ISSN: 0000-0000</b>
                                         </a>
                                     

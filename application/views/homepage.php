@@ -126,7 +126,7 @@ function showSlides() {
                     <!-- Free Tier -->
                     <div class="col-lg-4" >
                         <div class="card mb-5 mb-lg-0">
-                            <div class="card-body" >
+                            <div class="card-bodyblack" >
                                 <h3 class="card-title text-uppercase text-center">Call for Papers</h3>
                                 <hr>
                                 <ul class="fa-ul">
@@ -159,7 +159,7 @@ function showSlides() {
                     <div class="col-lg-4">
                         <div class="card mb-5 mb-lg-0">
 
-                            <div class="card-body">
+                            <div class="card-bodyblack">
 
                                 <h3 class="card-title  text-uppercase text-center">E-Certificates</h3>
                                 <hr>
@@ -279,7 +279,7 @@ function showSlides() {
         <div class="row"  data-aos="fade-up">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="author-guidelines.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/1.webp" alt=""></a> </div>
+                    <div class="product_img"> <a href="<?php echo base_url().'AuthorGuidelines'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/1.webp" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                         <h4><a href="<?php echo base_url().'AuthorGuidelines'?> ">Instruction For Authors</a></h4>
@@ -299,7 +299,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="submit-manuscript.html"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/2.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="<?php echo base_url().'Manuscript'?>"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/2.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'Manuscript'?>">Submit Paper</a></h4>
@@ -321,7 +321,7 @@ function showSlides() {
                 <div class="product_list">
 
 
-                    <div class="product_img"><a href="current-issue6f14.html?issueid=34"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/3.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="<?php echo base_url().'CurrentIssue'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/3.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'CurrentIssue'?>">Current Issue</a></h4>
@@ -343,7 +343,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href=""><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/4.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="<?php echo base_url().'EditorialBoard'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/4.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'EditorialBoard'?>">Editorial Board</a></h4>
@@ -363,10 +363,10 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="membership.html"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/5.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="#"> <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/5.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
-                            <h4><a href="<?php echo base_url().'#'?>">Membership Form</a></h4>
+                            <h4><a href="#">Membership Form</a></h4>
                         </div>
                         <div class="starratin">
                             <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -383,7 +383,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="peer-review-process.html"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/6.jpg" alt=""></a> </div>
+                    <div class="product_img"> <a href="<?php echo base_url().'PeerReviewProcess'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/6.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'PeerReviewProcess'?>">Peer Review Process</a></h4>
@@ -404,7 +404,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"> <a href="pay-fees.html"><img width=500 class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/7.jpg"  alt=""> </a></div>
+                    <div class="product_img"> <a href="<?php echo base_url().'PayFee'?>"><img width=500 class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/7.jpg"  alt=""> </a></div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'PayFee'?>">Publication Charges</a></h4>
@@ -422,7 +422,7 @@ function showSlides() {
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
                 <div class="product_list">
-                    <div class="product_img"><a href="<?php echo base_url().'copyrightform'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/8.jpg" alt=""></a> </div>
+                    <div class="product_img"><a href="<?php echo base_url().'CopyrightForm'?>"><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/it_service/8.jpg" alt=""></a> </div>
                     <div class="product_detail_btm">
                         <div class="center">
                             <h4><a href="<?php echo base_url().'CopyrightForm'?>">Download Copyright Form</a></h4>
@@ -522,6 +522,7 @@ function showSlides() {
                             <img src="https://media.istockphoto.com/photos/portrait-of-a-confident-young-man-picture-id1141737652?b=1&k=20&m=1141737652&s=170667a&w=0&h=1Ni7irJ6VB9BXN7LbJIdNHP0h5EMoyJcRyvXl5_nzDs=" alt="">
                         </div>
                         <div class="user_content">
+                            <br>
                             <h1>Shubham Gore
                             </h1>
                             <p>Department of Pharmacology</p>
@@ -540,6 +541,7 @@ function showSlides() {
                             <img src="https://images.unsplash.com/photo-1573625857539-29c09fd6b6a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
                         </div>
                         <div class="user_content">
+                            <br>
                             <h1>Komal ushir</h1>
                             <p>Deparment of pharmaceutical Chemistry</p>
                         </div>
@@ -556,6 +558,7 @@ function showSlides() {
                             <img src="https://images.unsplash.com/photo-1536318533971-7a25565daefc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZGlhJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
                         </div>
                         <div class="user_content">
+                            <br>
                             <h1>Rajnandini Ahire</h1>
                             <p>Department of pharmacceutical Analysis</p>
                         </div>

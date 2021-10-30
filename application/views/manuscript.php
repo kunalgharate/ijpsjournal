@@ -56,6 +56,13 @@
                                     <input type="email" name="email" required class="form-control" id="Email" />
                                 </div>
                                 <div class="form-group">
+                                    <label for="Contact No">
+                                        Contact No
+                                        <span style="color:red">*</span>
+                                    </label>
+                                    <input type="number" name="contact" required class="form-control" id="Contact" />
+                                </div>
+                                <div class="form-group">
                                     <label for="Country">
                                         Country
                                         <span style="color:red">*</span>
@@ -67,8 +74,7 @@
                                         Upload Paper
                                         <span style="color:red">(only docs/doc file) *</span>
                                     </label>
-                                    <?php echo form_upload(['name'=> 'userfile']);?>
-
+                                    <?php echo form_upload(['name'=>'userfile']);?>
                                     <span></span>
                                 </div>
 

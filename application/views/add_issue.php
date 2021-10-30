@@ -132,7 +132,6 @@ body {
                                         <span style="color:red">(only docs/doc/pdf file) *</span>
                                     </label>
                                     <?php echo form_upload(['name'=> 'userfile']);?>
-
                                     <span></span>
                                 </div>
                                <div class="form-group">
@@ -146,6 +145,6 @@ body {
 
                                 <button type="submit"  class="btn btn-success">Submit</button>&nbsp;<a class="btn btn-primary" href='javascript:self.history.back();'>Go Back</a>
 </div>
-</form>             
+</div>
     </body>
 </html> 

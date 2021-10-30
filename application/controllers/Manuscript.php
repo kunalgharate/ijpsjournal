@@ -19,6 +19,7 @@ class Manuscript extends CI_Controller {
 		$this->form_validation->set_rules('authorname','Name','required');
 		$this->form_validation->set_rules('papertitle','text','required');
 		$this->form_validation->set_rules('email','email','required');
+		$this->form_validation->set_rules('contact','text','required');
 		$this->form_validation->set_rules('country','Name','required');
 		if($this->form_validation->run()  && $this->upload->do_upload());
 		{

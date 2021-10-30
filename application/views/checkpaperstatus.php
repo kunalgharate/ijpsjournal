@@ -25,7 +25,7 @@
     <br>
     <h1 align="center">Check Paper Status</h1>
     <br>
-    <form class="form" align="center" action="<?php echo base_url();?>checkpaperstatus/paper_status" name="Article_id" method="post" >
+    <form class="form" align="center" action="<?php echo base_url();?>CheckPaperStatus/paper_status" name="Article_id" method="post" >
 
      <input  type="text" align="center" placeholder="ENTER ARTICLE ID" name="Article_id"  required><br><br>
     <button align="center" class="btn btn-success" type="submit">&nbsp;GET STATUS&nbsp;</></button>

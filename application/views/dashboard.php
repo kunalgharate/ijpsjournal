@@ -59,7 +59,7 @@ body {
         Manuscript Data
       </a>
       <a href="<?php echo base_url(); ?>admin/issue_data">
-        Issue Data
+        Upload Article
       </a>
       <a href="<?php echo base_url(); ?>admin/paper_status">
         Paper Status

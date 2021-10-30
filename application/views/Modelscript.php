@@ -26,7 +26,7 @@
 
 <h1 align="center"> Model Manuscript</h1>
 <br>
-<h3 style="color : #FFA500;">Cover Page</h3>
+<h3 style="color : #2E88C9;">Cover Page</h3>
 <br>
 <h5>Title</h5>
 <p class="middle">(Font: Times New Roman, Font Size-14, Each word capitalized, Bold, Center) </p>
@@ -40,7 +40,7 @@
 <h5>Correspondence Author Contact Detail</h5>
 <p class="middle">(Detail of Corresponding Author, Times new roman, Font Size-12, All fields are mandatory)</p>
 <p class="middle">(Full Name, Address with pin code, mail id & phone number – All fields are mandatory)</p><br>
-<h3 style="color : #FFA500;">Manuscript</h3>
+<h3 style="color : #2E88C9;">Manuscript</h3>
 <br>
 <h5>Abstract</h5>
 <p class="middle">(Font: Times New Roman, Size-12, Capital, Bold, Left align)</p>
@@ -71,9 +71,9 @@
 <a  style="color : #FFA500;" href="<?php echo base_url(); ?>/Modelscript/download/<?php echo $fname; ?>">Click here to download Model Manuscript for Research Articles</a>-->
 <br>
     
-<a  style="align:center; color : #2E88C9;"  download="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf" href="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Review Articles</a>   <br><br>
+<a  style="align:center; color : #2E88C9;"  download="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf" href="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Articles</a>   <br><br>
     
-<a  style="align:center; color : #2E88C9;"  download="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf" href="<?php echo base_url(); ?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Research Articles</a>   <br><br>
+<!--<a  style="align:center; color : #2E88C9;"  download="<?php /*echo base_url(); */?>upload/modelscript/modelscript.pdf" href="<?php /*echo base_url(); */?>upload/modelscript/modelscript.pdf"><i class="fa fa-cloud-download" aria-hidden="true">&nbsp;&nbsp;</i>Click here to download Model Manuscript for Research Articles</a>   <br><br>-->
 </div>                 
                     </div>
                 </div>
