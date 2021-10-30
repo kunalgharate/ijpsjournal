@@ -32,6 +32,7 @@ class Manuscript extends CI_Controller {
 			'authorname' => $this->input->post('authorname'),
 			'papertitle'=> $this->input->post('papertitle'),
 			'email'=> $this->input->post('email'),
+			'contact'=> $this->input->post('contact'),
 			'country'=> $this->input->post('country'),
 			'file'=> "upload/manuscript/".$data['raw_name'].$data['file_ext'],
 			

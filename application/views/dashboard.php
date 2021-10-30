@@ -80,6 +80,7 @@ body {
                             <th>Name</th>
                             <th>Title</th>
                             <th>Email</th>
+                            <th>Contact No</th>
                             <th>Country</th>
                             <th>Download File</th>
 
@@ -94,6 +95,7 @@ body {
                                 <td><?php echo $msd['authorname']; ?></td>
                                 <td><?php echo $msd['papertitle'] ?></td>
                                 <td><?php echo $msd['email']; ?></td>
+                                <td><?php echo $msd['contact']; ?></td>
                                 <td><?php echo $msd['country'] ?></td>
                                 <td><a href="<?=base_url ()?><?php echo $msd['file'] ?>" class="btn btn-primary"  download="<?php echo $msd['file'] ?>">Download</a></td>
                             </tr>
