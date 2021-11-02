@@ -35,6 +35,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/settings.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/layers.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/revolution/css/navigation.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+          integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 
 
     <!--Animation-->
@@ -121,11 +123,11 @@
                         <ul class="list-inline">
                         
               
-                             <li ><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
-                                <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
-                                <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
-                                <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
-                                <li><a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li> 
+                             <li ><a class="fa fa-facebook" href="https://www.facebook.com/International-Journal-in-Pharmaceutical-Sciences-106918958461959" title="Facebook" target="_blank"></a></li>
+                               <!-- <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>-->
+                                <li><a class="fa fa-twitter" href="https://twitter.com/ijps_journal" title="Twitter" target="_blank"></a></li>
+                                <li><a class="fa fa-linkedin" href="https://linkedin.com/in/ijps-journal-036840221" title="LinkedIn" target="_blank"></a></li>
+                                <li><a class="fa fa-instagram" href="https://www.instagram.com/ijps_journal/" title="Instagram" target="_blank"></a></li>
                         </ul>
                     </div>
                 </div>

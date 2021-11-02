@@ -28,7 +28,7 @@
                 
                 <thead>
                     <tr>
-                    <th>Article_id</th>
+                    <th>ID</th>
                     <th>Name</th> 
                     <th>Title</th> 
                     <th>Status</th>
@@ -41,7 +41,7 @@
                     <td>
                         
                     
-                    <h5><?php echo $psd; ?></h5>
+                    <h6><?php echo $psd; ?></h6>
                    
                     </td>
                 <?php  }  ?>

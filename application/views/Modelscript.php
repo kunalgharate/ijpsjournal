@@ -22,9 +22,7 @@
 <div class="container shadow-sm" style=" margin-left: auto;
     margin-right: auto; padding-top: 10px;   margin-top: 30%;  
     width: 70em">
-
-
-<h1 align="center"> Model Manuscript</h1>
+    <h1 align="center"><b> Model Manuscript</b></h1>
 <br>
 <h3 style="color : #2E88C9;">Cover Page</h3>
 <br>

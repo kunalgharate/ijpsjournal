@@ -85,7 +85,7 @@
                                 <b>Are you getting any problem in Paper Uploading ?</b>
                                 <p style="color:#058ecb">
                                     Don't worry please Submit / Email Research paper at
-                                    <a href="mailto:ijpsjournal@editorboard.com">ijpsjournal@editorboard.com</a>
+                                    <a href="mailto:editor@ijpsjournal.com"> editor@ijpsjournal.com</a>
                                 </p>
 
 

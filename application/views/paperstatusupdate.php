@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Article ID
                     <span style="color:red">*</span>
                 </label>
-                <input type="number" name="Article_id" required class="form-control" id="Article_id" value=<?php echo $Article_id;?> />
+                <input type="number" name="Article ID" required class="form-control" id="Article_id" value=<?php echo $Article_id;?> />
             </div>
         <div class="form-group">
                 <label for="Name">

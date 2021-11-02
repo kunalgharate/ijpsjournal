@@ -14,7 +14,7 @@ class Archive_model extends CI_Model {
         $this->db->select('*')
         ->where('volume',$volume)
         ->where('issue_id',$issue_id);
-        $this->db->order_by('id','desc');
+        $this->db->order_by('id','asc');
       
         
         $objQuery = $this->db->get('issue');

@@ -60,7 +60,7 @@ body {
       </a>
      
       <a href="<?php echo base_url(); ?>admin/issue_data">
-        Issue Data
+        Upload Article
       </a>
       <a href="<?php echo base_url(); ?>admin/paper_status">
         Paper Status
@@ -71,7 +71,7 @@ body {
       <a href="<?php echo base_url(); ?>admin/logout">Log out</a>
 </div>
         <div class="container" style="margin-right: 20px;">
-                    <h2>Issue Data</h2>
+                    <h2>Upload Article</h2>
                     <table align="right">
                       
                    <td> <a  class="btn btn-primary"  href="<?php echo base_url(); ?>admin/add_issue">&#x2795; ADD PAPER</a>
