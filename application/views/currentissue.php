@@ -49,8 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <td>
                             <?php echo  $isd['paper_title']; ?>&nbsp;<br>
                             <?php echo $isd['authorname']; ?>&nbsp;<br>
-                            <label>volume : v</label><?php echo $isd['volume'] ?>&nbsp;
-                            <label>Issue  :  i</label><?php echo $isd['issue_id'] ?>&nbsp;
+                            <label>volume : </label>  <?php echo $isd['volume'] ?>&nbsp;
+                            <label>Issue  :  </label>  <?php echo $isd['issue_id'] ?>&nbsp;
                             <label>DOI  : </label>  <?php echo  $isd['doi']; ?>&nbsp;<br>
                                 
                             <a style="color : #FFA500;" href="<?=base_url ()?><?php echo $isd['issue_paper'] ?>"  download="<?php echo $isd['issue_paper'] ?>">Download paper, </a>
